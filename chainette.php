@@ -6,7 +6,7 @@
 	 *	Masse linéique cable 6, 8, 9, 11 mm
 	 *	Masse linéique filet
 	 *	Masse linéique plaquette 
-	 *	$To Tension (Composante horizontale qui est constante pouunr flèche donnée) 
+	 *	$To Tension (Composante horizontale qui est constante pour une flèche donnée) 
 	 */
 	//Exemple 1
 	/*
