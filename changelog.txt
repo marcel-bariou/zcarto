@@ -1,0 +1,94 @@
+/*
+ * Created on January 12, 2014
+ * PAPWEB
+ *
+ * LICENSE
+ *
+ * This source file is subject to the lpgl.txt license that is bundled
+ * with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.icijepeux.es/lgpl.txt
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to papweb@brasnah.com so we can send you a copy immediately.
+ *
+ * @category   Papweb
+ * @package    WebServices
+ * @author	   Marcel Bariou	
+ * @copyright  Copyright (c) 2005-2014 Marcel Bariou (http://www.icijepeux.es)
+ * @license    http://www.icijepeux.es/lpgl.txt    
+ * 
+ * To change the template for this generated file go to
+ * Edit Preferences for Eclipse - PHPeclipse - PHP - Code Templates
+ */
+ 
+ 
+ Environ Janvier 2014 - Setup Pyrénées Orientales, France, Companies Database
+ Priority to industrial activities. But some other services activities are also included.
+ 
+ 12/01/2014 : 	Setup a new release with ZF1 a second release is in progress with ZF2 as a fluid design for tablet and phone
+ 
+ 12/04/2014 : 	In authentification controller cache initialisation for query clauses and tables
+		In table management checking cache management  for query clauses and tables		
+		Setup select list according the search criteria (Zones) / DOM manipulation, great !I am happy with Roy Orbison 
+		
+13/04/2014	Adding link to JQuery in Bootstrap
+		Add balloon tooltips on template index.tpl to give information about some lists
+		Add balloon tooltips on template index.php on listing data
+		Use of JQUERY
+		We have to take care about form filtering
+		
+21/04/2014	Some improvements give abilities To complete a form (registration for an activity without log) 
+		in this a pair username/password is introduced with very limited privileges : access to the alone 
+		owned form for update/modification or suppress, following files were impacted :
+		- gandimenu for adding new links in activity and administration
+		- login for adding selecting list for registration in a specific domain with limited privilieges
+		- map-services template for triggering specific registration form display for completion 
+		- management controller to alleviate some perms control without log
+		- authentification controller to setup automatically the authentification tables
+		- joboffer for getting labels form
+		- jobseeker for getting labels form
+		- tuser for getting labels form
+		- layout paramétrage des liens vers les tables de profil individuel
+		
+24/04/2014	Interface access modifications for private records: 
+		- le private permet de s'affranchir des autoriasations sur ses propres données après authentification
+		- with $private setup in controllers, permissions not necessary to access to an authenticated user private data
+		- maps-services theme selection set in a block inside tremplate, used only for visitors
+		- layout : links and messages modification for access 
+
+23/05/2014	Zones allocation creation with dedicated managers :
+		- fAffectation.php,
+		- affectation.php
+		- affectation.tpl
+		Bootstrap php error messages modification
+		BuildForm set attrib in multiselect
+		MngtbController affectationAction 
+		MenuGandi new menus links setup
+		Database tUser field for zones management respzone_smul
+		Database tZone field for check status allocation
+		Form search insertion in list zones display
+		For list zone display link insertion to entreprises list in the current zone
+		
+25/05/2014	Word extraction for activities qualification :
+		alphalist action, mngtb and alphalist.php, affichemots.tpl
+		New link in menugandi "Activities vocabulary"
+
+26/05/2014	Entreprise icon text (ent) display per zone :
+		zoneslocalisation.php, access to Entreprises for a Zone and adding display Icon after regular expression cleaning
+		zoneslocalisation.tpl (Cleaning) and Icon display for enterprises
+		
+18/06/2014	buildpdfAction Creation -> mngtbController
+		link to Pdf generation limited to "zone" and 150 records  introduced in index.php && index .tpl  
+		
+15/07/2014	buildpdfAction modified in mngtController
+		Adding capabilities to list also result list from request on activities
+
+		
+		
+		
+		
+
+	
+		
+		
