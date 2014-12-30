@@ -32,6 +32,15 @@ class MngtbController extends Zend_Controller_Action
 	private $_config;
 	private $_infoTitle;
 	private $_result=array();
+	
+	private $_docPdf;	// Object doc Pdf
+	private $_pagePdf;	// Object page Pdf
+	private $_linePdf;	// Current line in Pdf document
+	private $_nbPagePdf;	// Total number of Object page Pdf
+	private $_numPagePdf;	// Current number of Object page Pdf
+	private $_refdevis;	// Référence devis
+	
+	
 	public $_redirector = null;
 	protected $qrang = 0;
 	protected $qrangTrans = 0;
@@ -130,6 +139,21 @@ class MngtbController extends Zend_Controller_Action
 				break;
 			case 'tZones' :
 				$this->_infoTitle = " table des Zones d'activités. ";
+				break;
+			case 'tClientetc' :
+				$this->_infoTitle = " table des Clients ECO-TECH CERAM. ";
+				break;
+			case 'tTacheetc' :
+				$this->_infoTitle = " table des compétences ECO-TECH CERAM. ";
+				break;
+			case 'tProjectetc' :
+				$this->_infoTitle =  " table des Projets ECO-TECH CERAM. ";
+				break;
+			case 'tDevisetc' :
+				$this->_infoTitle = " table des devis de Projets ECO-TECH CERAM. ";
+				break;
+			case 'tLotchapetc' :
+				$this->_infoTitle = " table des lots et chapitres Projets ECO-TECH CERAM. ";
 				break;
 			case 'fFormtest' :
 				$this->_infoTitle = " Test de formulaire. ";
@@ -253,6 +277,26 @@ class MngtbController extends Zend_Controller_Action
 	if($this->view->flagzone!==1){
 		$this->view->flagzone= preg_match("/comment/", $clause);
 	} //die($clause);
+	
+	if ($this->params['t']=='tEntreprisespo'){
+		if(preg_match("/zone/", $clause)===1){
+			 $pattern = '/zones LIKE %([0-9]*)%/';
+			 $klause = str_replace("'", "", $clause);	 
+			 preg_match($pattern, $klause, $matches) ;
+			 $this->view->texttitlePage = "Entreprises -> ZONE => ".$form->getLabelForm(24,2)[(int)$matches[1]];
+		 }elseif(preg_match("/comment/", $clause)===1){
+			 $pattern = '/comments LIKE %([a-zA-Z0-9âàèéêîôùû -]*)%/';
+			 $klause = str_replace("'", "", $clause);	 
+			 preg_match($pattern, $klause, $matches) ;
+			 $this->view->texttitlePage = "Liste entreprises pour requête [activité = ".$matches[1]."]";
+		 }elseif(null!=$clause && $clause!=''){
+		 	$this->view->texttitlePage = "Liste des entreprises respectant la clause ".$clause; 
+		 }else{
+			 $this->view->texttitlePage = "Liste complete de toutes les entreprises "; 
+		 }
+	}
+	
+	
         $this->view->paginator= Zend_Paginator::factory($this->view->records);
     	$this->view->paginator->setItemCountPerPage(50);
     	$this->view->paginator->setPageRange(8);
@@ -633,17 +677,42 @@ class MngtbController extends Zend_Controller_Action
 		$res = $table->fetchAll(
 					$table->select()
 					->where($clause)
-					->order('c_name'));		
+					->order('AddressLine1')
+					->order('c_name'));	
+		/*
+		foreach ($vaddLine as $k => $v){
+			print "<BR/>".$tt[$k]['AddressLine1'];	
+		}die();
+		*/
+		$tt=$res->ToArray(); 
+		
 	}else{    	
 		$db2= Zend_Registry::get('db2');		
-		$query2 = "SELECT c_name, AddressLine1, AddressLine2, City, phone, comments FROM tEntreprisespo WHERE zones=218"; 			
+		$query2 = "SELECT id, c_name, AddressLine1, AddressLine2, City, phone, comments FROM tEntreprisespo WHERE zones=218 Order by AddressLine1, c_name"; 			
 		$db2->setFetchMode(Zend_Db::FETCH_OBJ);
-		$res = $db2->fetchAll($query2);		
+		$tt = $db2->fetchAll($query2);	
+		foreach($tt as $k => $value){
+			$tt[$k] = array('id' => $value -> id,'c_name' => $value -> c_name, 'AddressLine1' => $value->AddressLine1,'AddressLine2' => $value->AddressLine2,'City' => $value -> City, 'phone' => $value->phone,'comments' => $value->comments);
+		}
 	}
-   	 
+ 
+	$tt=$res->ToArray();
+
+	foreach ($tt as $k=>$v){
+		$string = $v['AddressLine1'];
+		$pattern = '/[0-9]*[ bis| Bis]*|[x ]*/';
+		$replacement = '';
+		//$rank[]=$k;
+		$vaddLine[]=preg_replace($pattern, $replacement, $string);
+		asort($vaddLine, SORT_FLAG_CASE | SORT_NATURAL);
+	}
+	
+	
+	
     	if(!isset($this->params['page'])){$valpage=1;}else{ $valpage = $this->params['page'];} 
 	$inum =1;
 	
+
 		
 		try {
 		  /**
@@ -662,12 +731,10 @@ class MngtbController extends Zend_Controller_Action
 			 $texttitlePage = "ZONE => ".$form->getLabelForm(24,2)[(int)$matches[1]];
 			 $pdf->properties['Author'] = "COMIDER Markethon Perpignan"; 			 
 		 }
-		 
-  
 		
 		 
 		 if(preg_match("/comment/", $clause)===1){
-			 $pattern = '/comments LIKE %([a-zA-Z0-9]*)%/';
+			 $pattern = '/comments LIKE %([a-zA-Z0-9âàèéêîôùû -]*)%/';
 			 $klause = str_replace("'", "", $clause);	 
 			 preg_match($pattern, $klause, $matches) ;
 			 $pdf->properties['Title'] = "Liste entreprises pour requête [activité = ".$matches[1]."]";
@@ -676,11 +743,17 @@ class MngtbController extends Zend_Controller_Action
 		 }
 		  
 		 $y= 440.0; 
-				  
+			 	
+			  
 			  /**
 			   *	Columns and rows for current page
 			   */
-		 foreach ($res as $cpy){   
+		 //foreach ($res as $cpy){ 
+		 
+		 //foreach ($vaddLine as $k => $v){
+		//	$cpy=$res[$k];
+		 foreach ($vaddLine as $k => $v){
+		 	  $cpy = $tt[$k];
 			  if(!isset($page) || $y < 40){ 
 			  	  
 			  	  if(isset($page) && $y < 40){		  
@@ -734,8 +807,8 @@ class MngtbController extends Zend_Controller_Action
 					->drawText('NOM', 270, 480, 'UTF-8')
 					->drawLine(428, $y2, 428, $y1)
 					->drawText('VILLE',430, 480, 'UTF-8')					
-					->drawLine(488, $y2, 488, $y1)
-					->drawText('Téléphone', 490, 480, 'UTF-8')
+					->drawLine(501, $y2, 501, $y1)
+					->drawText('Téléphone', 503, 480, 'UTF-8')
 					->drawLine(608, $y2, 608, $y1)
 					->drawText('Activités', 610, 480, 'UTF-8')
 					->drawLine(40.0, 460.0, 800.0, 460.0);
@@ -744,32 +817,33 @@ class MngtbController extends Zend_Controller_Action
 				   $ytext= 444.0;
 				   $page->setLineWidth(2.0);
 			  }
-			 
+				
 				 if($y >= 40){
-				 	
+				 	 
 					       $page->setFont($font, 10)
 							->drawText($inum, 43, $ytext, 'UTF-8//IGNORE')
-							->drawText($cpy->AddressLine1, 80, $ytext, 'UTF-8//IGNORE')
-							->drawText( $cpy->c_name, 230, $ytext, 'UTF-8//IGNORE')
-							->drawText( $cpy->City, 430, $ytext, 'UTF-8//IGNORE')
-							->drawText($cpy->phone, 490, $ytext, 'UTF-8//IGNORE')
-							->drawText(trim(iconv_substr($cpy->comments, 0 ,38, 'UTF-8')), 610, $ytext, 'UTF-8//IGNORE')
+							->drawText($cpy['AddressLine1'], 80, $ytext, 'UTF-8//IGNORE')
+							->drawText( $cpy['c_name'], 230, $ytext, 'UTF-8//IGNORE')
+							->drawText( substr($cpy['City'], 0, 15), 430, $ytext, 'UTF-8//IGNORE')
+							->drawText($cpy['phone'], 503, $ytext, 'UTF-8//IGNORE')
+							->drawText(html_entity_decode(trim(iconv_substr($cpy['comments'], 0 ,38, 'UTF-8'))), 610, $ytext, 'UTF-8//IGNORE')
 							->drawLine(40.0, $y, 800.0, $y);
 							
-							
+						
 						$y -= 20.0;
 						$ytext= $y + 5.0;
 						$inum++;
 					 
-				  }
+				  } 
 				
 			  }
 			 
-		  if(isset($page)&& $y >= 40){		  
+		//  if(isset($page)&& $y >= 40){		  
 			$pdf->pages[] = $page;
-			unset($page);			  	  	  
-		}
-		  
+			unset($page);	
+			
+		//}
+		 
 		  // save as file and download
 		  $pdf->save('pdfFiles/'.$filename.'.pdf');
 		  header("Content-type: application/pdf");
@@ -784,13 +858,470 @@ class MngtbController extends Zend_Controller_Action
 		} catch (Zend_Pdf_Exception $e) {
 		  die ('PDF error: ' . $e->getMessage());  
 		} catch (Exception $e) {
-			$stringFault = "<BR/>Il se peut que vous ayiez une anomalie d'écriture en base sur :<BR/>". $cpy->c_name."<BR/>".$cpy->AddressLine1."<BR/>".trim(iconv_substr($cpy->comments, 0 ,31))."<BR/>". "Contactez le Mécano de la Générale";
+			$stringFault = "<BR/>Il se peut que vous ayiez une anomalie d'écriture en base sur :<BR/>". $cpy['c_name']."<BR/>".$cpy['AddressLine1']."<BR/>".trim(iconv_substr($cpy['comments'], 0 ,31))."<BR/>". "Contactez le Mécano de la Générale";
 			throw new Exception($stringFault);
 
 		  //print	$e->getTraceAsString();
 		  //die ('Application error: ' . $e->getMessage());    
 		}	 
     }
+
+   public function lstzpdfAction()
+    {
+    	/**
+    	 * 	Exemple for a suffix change
+    	 * 	Or a layout change
+    	 */
+    	  $form= new $this->classForm();
+    	  $prevclause= new Zend_Session_Namespace('experimental');
+    	  $className=$this->classTable ;
+    	  
+    	  $table = new $className($this->params['t']);
+    	  $totEnt=0;
+    	
+    	 if(null != $prevclause->clauselst && $prevclause->clauselst!= ''){    	 	
+		$clause = $prevclause->clauselst;
+		$res = $table->fetchAll(
+					$table->select()
+					->where($clause)
+					->order('city')
+					->order('c_name'));
+		$tt=$res->ToArray(); 	
+		
+	}else{    	
+		$db2= Zend_Registry::get('db2');		
+		$query2 = "SELECT id, c_name, city FROM tZones order by city, c_name"; 			
+		$db2->setFetchMode(Zend_Db::FETCH_OBJ);
+		$tt = $db2->fetchAll($query2);	
+		foreach($tt as $k => $value){
+			$tt[$k] = array('id' => $value -> id,'c_name' => $value -> c_name,'city' => $value -> city);
+		}
+		
+	}
+
+		
+	
+    	if(!isset($this->params['page'])){$valpage=1;}else{ $valpage = $this->params['page'];} 
+	$inum =1;
+	
+
+		
+		try {
+		  /**
+		   *	Create PDF Document and define resources
+		   */
+		 $pdf = new Zend_Pdf();  
+		 $font = Zend_Pdf_Font::fontWithName(Zend_Pdf_Font::FONT_HELVETICA);
+		 $font2 = Zend_Pdf_Font::fontWithName(Zend_Pdf_Font::FONT_HELVETICA_BOLD_ITALIC);
+		 $pdf->properties['Author'] = "COMIDER Markethon Perpignan";
+		 $y= 740.0; 
+			 	
+			  
+			  /**
+			   *	Columns and rows for current page
+			   */
+		 $numz=1;
+		 foreach ($tt as $k => $cpy){
+			
+			
+			  if(!isset($page) || $y < 40){ 
+			  	  
+			  	  if(isset($page) && $y < 40){		  
+					  /**
+					   *	Add current page to document
+					   */					  
+					  $pdf->pages[] = $page;
+					  unset($page);			  	  	  
+			  	  }
+				  
+			  	  /**
+				   *	Create page
+				   */
+				   $texttitlePage = "Liste des zones"; 
+				   $page = new Zend_Pdf_Page(Zend_Pdf_Page::SIZE_A4);
+				   $width  = $page->getWidth();
+				   $height = $page->getHeight();
+				   $x1=40.00;
+				   $y1=40.00;
+				   //$x2=680.00;
+				   $y2=760.00;
+				   $x2=550.00;
+				   $grayLevel=1.0;
+				   $color1 = new Zend_Pdf_Color_GrayScale($grayLevel);
+				   $color1 = new Zend_Pdf_Color_Rgb(0, 0, 0);
+				   $page->setLineColor($color1);
+				   $page->setLineWidth(3.0);
+				   $page->drawRectangle($x1, $y1, $x2, $y2,
+				   $fillType = Zend_Pdf_Page::SHAPE_DRAW_STROKE);
+				   $page->drawLine(5.0, 5.0, 550.0, 5.0);
+				  	
+				   $page->setFont($font, 18)
+				   	->drawText('DEPART PERPIGNAN', 40, 800);
+				   
+				   $page->setFont($font, 18)
+				   	->drawText('LISTE DES ', 240, 800);			  
+				   $page->setFont($font, 18)
+					->drawText(count($tt).' ZONES / 2014.', 340, 800);
+				
+				   $filename="ListeZones";	
+				   $page->setFont($font2, 12)     
+					->drawText('IDENTIFICATION', 43, 745, 'UTF-8')
+					->setLineWidth(2.0)
+					->drawLine(275, $y2, 275, $y1)
+					->drawText('VILLE', 278, 745, 'UTF-8')
+					->drawLine(345, $y2, 345, $y1)
+					->drawText('N° ', 348, 745, 'UTF-8')
+					->drawLine(395, $y2, 395, $y1)
+					->drawText('Nb/Ent', 398, 745, 'UTF-8')			
+					->drawLine(490, $y2, 490, $y1)
+					->drawText('GROUPE', 493, 745, 'UTF-8')
+					->drawLine(40.0, 740, 550.0, 740);
+			       
+				   $y= 720.0;
+				   $ytext= 724.0;
+				   $page->setLineWidth(2.0); 
+			  }
+			
+				 if($y >= 40){
+				 	
+						 
+				 	 $db1= Zend_Registry::get('db1');		
+				 	 $queryent = "SELECT count(*) as total FROM tEntreprisespo WHERE zones=".$cpy['id']; 			
+				 	 $db1->setFetchMode(Zend_Db::FETCH_OBJ);
+				 	 $nbEnt = $db1->fetchAll( $queryent);
+				 	
+				 	 $page->setFont($font, 10)
+							->drawText( $cpy['c_name'], 43, $ytext, 'UTF-8//IGNORE')
+							->drawText( substr($cpy['city'], 0, 15), 278, $ytext, 'UTF-8//IGNORE')
+							->drawText( $numz, 348, $ytext, 'UTF-8//IGNORE')
+							->drawText($nbEnt[0]->total, 398, $ytext, 'UTF-8//IGNORE')
+							->drawLine(40.0, $y, 550.0, $y);
+							
+						
+						$y -= 20.0;
+						$ytext= $y + 5.0;
+					 
+				  }
+				  $numz +=1;
+				  $totEnt +=$nbEnt[0]->total;
+				
+			  }
+		//  if(isset($page)&& $y >= 40){		  
+			$pdf->pages[] = $page;
+			unset($page);	
+			$pdf->pages[0]->setFont($font, 14)
+				   	->drawText('Nbre total entreprises => '.$totEnt, 40, 770);
+			
+		//}
+		 
+		  // save as file and download
+		  
+		  $pdf->save('pdfFiles/'.$filename.'.pdf');
+		  header("Content-type: application/pdf");
+		  header("Content-Disposition: attachment; filename=\"".$filename.".pdf\"");
+		  header("Content-length: ".filesize('pdfFiles/'.$filename.'.pdf'));
+		  print file_get_contents('pdfFiles/'.$filename.'.pdf');
+		  $this->_helper->layout->disableLayout();
+		  $this->_helper->viewRenderer->setNoRender(TRUE);
+
+		  //$this->_redirect('/mngtb/index/t/'.$this->params['t'].'/page/'. $valpage.'/tzone/'.Zend_Registry::get('tzone'));
+		  
+		} catch (Zend_Pdf_Exception $e) {
+		  die ('PDF error: ' . $e->getMessage());  
+		} catch (Exception $e) {
+			$stringFault = "<BR/>Il se peut que vous ayiez une anomalie d'écriture en base sur :<BR/>". $cpy->c_name."<BR/>".$cpy->city."<BR/>". "Contactez le Mécano de la Générale";
+			throw new Exception($stringFault);
+
+		  //print	$e->getTraceAsString();
+		  //die ('Application error: ' . $e->getMessage());    
+		}	 
+    }
+			  
+ /**
+  * 	$text_com=html_entity_decode ( $string )
+  *	iconv('ISO-8859-1', ' UTF-8', html_entity_decode ($lotn['comments']))
+  *	$a =iconv('ISO-8859-1', ' UTF-8', html_entity_decode ($lotn['comments'])); 
+  *	Nombre moyen de caractères par ligne selon la taille de la police Font => nb Carac. :
+  *	10 => 134, 12 => 111, 14 => 94, 18 => 75, 20=> 66, 
+  *
+  */
+			  
+    
+   private function _writePdflineText($sentence, $db2, $tt, $font){
+    	  $a = html_entity_decode ($sentence); 
+	  $phrase=explode(' ', $a);			  
+	  $display="";
+	  foreach($phrase as $kph => $valueph){
+		  if(strlen($display.$valueph) <= 114){			  	  	  
+			  $display .= $valueph.' ';
+		  }else{
+			  $this->_pagePdf->drawText( $display, 10, $this->_linePdf, 'UTF-8');	  
+			  $display = $valueph.' ';
+			  $this->_linePdf -= 14;
+			  $this->_checkPdfPageSetUp($db2, $tt, $font);			 
+		  }
+		  
+	  }
+	  $this->_pagePdf->drawText( $display, 10, $this->_linePdf, 'UTF-8');		  
+	  $this->_linePdf -= 14;
+	  $this->_checkPdfPageSetUp($db2, $tt, $font);
+	  return true;
+    }
+    
+   private function _checkPdfPageSetUp($db2, $tt, $font){
+   	   if(isset($this->_pagePdf) && $this->_linePdf < 40){
+   	   	   
+		  /**
+		   *	Add current finished page to document
+		   * 	Create New Page
+		   */
+		   
+		  $this->_docPdf->pages[] = $this->_pagePdf;
+		  unset($this->_pagePdf);
+		  $this->_nbPagePdf += 1;
+		  $this->_numPagePdf +=1;		  
+		  $this->_pagePdf = $this->view->buildHeadPdf($db2, $tt, $font,  $this->_numPagePdf);
+		  $this->_linePdf = 700;
+	  }
+   	return true;   
+   }
+    
+   public function devetcpdfAction()
+    {
+    	/**
+    	 * 	Exemple for a suffix change
+    	 * 	Or a layout change
+    	 */
+    	 /*
+    	  $form= new $this->classForm();
+    	  $prevclause= new Zend_Session_Namespace('experimental');
+    	  $className=$this->classTable ;
+    	  
+    	  $table = new $className($this->params['t']);
+    	  $totEnt=0;
+*/
+	  setlocale(LC_MONETARY, 'fr_FR');
+    	  $db2= Zend_Registry::get('db2');
+	  $query2 = "SELECT * FROM tDevisetc WHERE id=".$this->params['id']; 			
+	  $db2->setFetchMode(Zend_Db::FETCH_OBJ);
+	  $tt = $db2->fetchAll($query2);	
+	  foreach($tt as $k => $value){
+		$tt[$k] = array('id' => $value -> id,'c_name' => $value -> c_name,'projectid' => $value -> projectid, 'tasks_smul' => explode(",",$value -> tasks_smul), 'ref' =>  $value -> datehour );
+		$this->_refdevis=str_replace(' ', '-', $value -> datehour);
+		$this->_refdevis==str_replace(':', '-', $this->_refdevis);
+	  }
+
+	  $ArrayDevis=Array();
+	  $db2= Zend_Registry::get('db2');		
+	  $query2 = "SELECT * FROM tLotchapetc WHERE type=1 ORDER BY c_name"; 			
+	  $db2->setFetchMode(Zend_Db::FETCH_OBJ);
+	  $reslot = $db2->fetchAll($query2);
+	  $kl=0;
+	  $sel_lot=array();
+	  $sel_chapter=array();
+	  
+	  /**
+	   *	A l'identique du vecteur des tâches construction des vecteurs de lots et de chapitres
+	   */
+
+	  foreach($tt[0]['tasks_smul'] as $ks=>$val){
+	  	  if($val!=''){
+			  $queryx = "SELECT tLotchapetc.root as lot, tTacheetc.pkgchapter as chapitre FROM tTacheetc,tLotchapetc WHERE tTacheetc.id=".$val." AND tLotchapetc.id=tTacheetc.pkgchapter";
+			  $db2->setFetchMode(Zend_Db::FETCH_OBJ);
+			  $lc = $db2->fetchAll($queryx);
+			  foreach($lc as $k => $value){
+			  	  $keylot = array_search($value->lot,$sel_lot);
+				  if( $keylot===false){
+				  	  $sel_lot[]=$value->lot;
+				  }
+			  	  $keychap = array_search($value->chapitre,$sel_chapter);
+				  if( $keychap===false){
+				  	  $sel_chapter[]=$value->chapitre;
+				  }
+			  }
+	  	  }
+	  }
+
+	  
+	  foreach($reslot as $kL => $valueL){
+	  	  $keylot = array_search($valueL->id, $sel_lot);
+	  	  if( $keylot!== false){
+			  $ArrayDevis[$kL]['c_name']=$valueL->c_name.' : '.$valueL->c_title ;
+			  $ArrayDevis[$kL]['comments']=$valueL->comments;
+			  $ArrayDevis[$kL]['cost']=0.0;	  	  
+			  $query2 = "SELECT * FROM tLotchapetc WHERE root=".$valueL->id." ORDER BY c_name"; 			
+			  $db2->setFetchMode(Zend_Db::FETCH_OBJ);
+			  $reschap = $db2->fetchAll($query2);
+			  
+			  foreach($reschap as $kC => $valueC){
+				  $keychap = array_search($valueC->id,$sel_chapter);
+				  if( $keychap !== false){
+					  $ArrayDevis[$kL]['Chap'][$kC]['c_name']=$valueC->c_name.' : '.$valueC->c_title ;
+					  $ArrayDevis[$kL]['Chap'][$kC]['cost']=0.0;	  	  	 	  	  	  	  
+					  $query2 = "SELECT * FROM tTacheetc WHERE pkgchapter=".$valueC->id;		
+					  $db2->setFetchMode(Zend_Db::FETCH_OBJ);
+					  $restask = $db2->fetchAll($query2);
+					 
+					   foreach($restask as $kT => $valueT){ 
+						   $keywork = array_search($valueT->id,$tt[0]['tasks_smul']); 
+						   if( $keywork !== false){ 
+							$ArrayDevis[$kL]['Chap'][$kC]['Tasks'][$kT][0]=$valueT->c_name.' : '.$valueT->comments;
+							// Introduire ici les coûts de calcul des tâches
+							$queryC = "SELECT task_type, packg_cost, hourly_cost, volume,duration, follow_rate FROM tTacheetc WHERE id=".$valueT->id;		
+							$db2->setFetchMode(Zend_Db::FETCH_OBJ);
+							$resCost = $db2->fetchAll($queryC);
+							if($resCost[0]->task_type==2){
+								$ArrayDevis[$kL]['Chap'][$kC]['Tasks'][$kT][1]=(double)$resCost[0]->hourly_cost * $resCost[0]->volume;
+							}else{
+								$ArrayDevis[$kL]['Chap'][$kC]['Tasks'][$kT][1]=(double)$resCost[0]->packg_cost + (double)($resCost[0]->follow_rate*$resCost[0]->hourly_cost * $resCost[0]->duration)/800.0;
+								
+							}
+							$ArrayDevis[$kL]['Chap'][$kC]['cost'] +=$ArrayDevis[$kL]['Chap'][$kC]['Tasks'][$kT][1];
+							$ArrayDevis[$kL]['cost'] +=$ArrayDevis[$kL]['Chap'][$kC]['Tasks'][$kT][1];
+						   }
+					   }	  	  	  	  
+				}			  
+			  }
+		}
+			  
+	  }
+	
+	try {
+		  /**
+		   *	Create PDF Document and define resources
+		   */
+		 $totalcost=0.0;  
+		 $this->_docPdf = new Zend_Pdf();  
+		 $font = Zend_Pdf_Font::fontWithName(Zend_Pdf_Font::FONT_HELVETICA);
+		 $font2 = Zend_Pdf_Font::fontWithName(Zend_Pdf_Font::FONT_HELVETICA_BOLD_ITALIC);
+		 $this->_docPdf->properties['Author'] = "ECO-TECH Ceram";
+		 $this->_linePdf= 0.0; 			
+			  
+		/**
+		 *	First page creation
+		*/
+		 $this->_nbPagePdf = 1;
+		 $this->_numPagePdf=1;
+		 $this->_pagePdf = $this->view->BuildHeadPdf($db2, $tt, $font, $this->_numPagePdf);
+		 $this->_linePdf= 700.0;
+		 $nlot=1;
+		 foreach ($ArrayDevis as $kl => $lotn){ 	 
+				
+			/** 
+			 * New page needed ?
+			 * If New Page needed :
+			 *	- save current one in document
+			 * 	- create new page,
+			 */
+			 
+			  if(!isset($this->_pagePdf) || $this->_linePdf < 40){ 
+				   
+				  if(isset($this->_pagePdf) && $this->_linePdf < 40){		  
+					$this->_docPdf->pages[] = $this->_pagePdf;
+					unset($this->_pagePdf);			  	  	  
+				  }
+				 $this->_checkPdfPageSetUp($db2, $tt, $font);
+			  }
+			  
+			  $b=$this->_linePdf-4;
+			  $this->_pagePdf->setFont($font, 12);
+			  $this->_pagePdf->drawText( $lotn['c_name'], 10, $this->_linePdf, 'UTF-8');
+			  $this->_pagePdf->drawLine(10.0, $b , 585.0, $b);
+			  $this->_linePdf -= 14;
+			  $this->_checkPdfPageSetUp($db2, $tt, $font);
+
+			  $b=$this->_linePdf-4;			  
+			  $this->_pagePdf->setFont($font, 10)
+			       ->setLineWidth(1.0);
+			  $this->_writePdflineText($lotn['comments'], $db2, $tt, $font);			
+			 $b=$this->_linePdf-4;
+			 $this->_pagePdf->drawLine(10.0, $b , 585.0, $b);
+			 
+			 $nchap=1;
+			 foreach($ArrayDevis[$kl]['Chap'] as $kc => $chapn){		 	 
+			 	 $this->_pagePdf->setFont($font, 12);
+			 	 $a = html_entity_decode ($chapn['c_name']);
+			 	 $this->_pagePdf->drawText($a, 10, $this->_linePdf, 'UTF-8');
+			 	 $this->_linePdf -= 14;
+			 	 $this->_checkPdfPageSetUp($db2, $tt, $font);
+			 	 $b=$this->_linePdf-4;
+			 	 $this->_pagePdf->setFont($font, 10);
+			 	 
+			 	 	/** 
+			 	 	 *  N° de tâche ou de poste
+			 	 	 */
+			 	 	 
+			 	 $ntask=1;
+			 	 foreach($ArrayDevis[$kl]['Chap'][$kc]['Tasks'] as $kt => $taskn){
+			 	 	$a = html_entity_decode ($taskn[0]);			 	 	
+			 	 	$this->_writePdflineText("Tâche ".$ntask." :".$a, $db2, $tt, $font);
+			 	 	
+			 	 	$puht = money_format('%i', $taskn[1]);
+			 	 	$this->_pagePdf->drawText( "Prix HT : ".$puht, 450, $this->_linePdf, 'UTF-8');
+			 	 	$ntask++;
+			 	 	$this->_linePdf-=14;		 	 	
+			 	 	$b = $this->_linePdf-4;
+					$this-> _checkPdfPageSetUp($db2, $tt, $font);			 	 	
+			 	 }
+			 	 
+			 	 //Ecriture du prix du Chapitre Courant
+			 	 $puht =  money_format('%i', $ArrayDevis[$kl]['Chap'][$kc]['cost']);
+			 	 $this->_pagePdf->drawText( "Chapitre n° ".$nchap." => Prix HT : ".$puht, 400, $this->_linePdf, 'UTF-8');
+			 	 $nchap +=1;
+			 	 $this->_linePdf-=14;		 	 	
+			 	 $b = $this->_linePdf-4;
+				 $this-> _checkPdfPageSetUp($db2, $tt, $font);
+			 }
+			 
+			 //Ecriture du prix du Lot Courant
+			  $puht =  money_format('%i', $ArrayDevis[$kl]['cost']);
+			  $totalcost +=  $ArrayDevis[$kl]['cost'];
+			  $this->_pagePdf->drawText( "Lot n° ".$nlot." => Prix HT : ".$puht, 350, $this->_linePdf, 'UTF-8');
+			  $nlot +=1;
+			  $this->_linePdf-=14;		 	 	
+			  $b = $this->_linePdf-4;
+			  $this-> _checkPdfPageSetUp($db2, $tt, $font);
+			 	 
+		   }
+		   
+		  $puht = money_format('%i', $totalcost);
+		  $this->_pagePdf->drawText( "Coût Total HT de l'expertise: ".$puht, 200, $this->_linePdf, 'UTF-8');
+		  $this->_linePdf-=14;		 	 	
+		  $b = $this->_linePdf-4;
+		  $this-> _checkPdfPageSetUp($db2, $tt, $font);	
+		  $totalcost = $totalcost * 1.2;
+		  $puht = money_format('%i', $totalcost);
+		  $this->_pagePdf->drawText( "Coût Total TTC de l'expertise: ".$puht, 200, $this->_linePdf, 'UTF-8');
+		  
+		  $filename = 'devistec'.$this->_refdevis;
+		  $this->_docPdf->pages[] = $this->_pagePdf;
+		  foreach( $this->_docPdf->pages as $k => $page){
+		  	  $page->drawText( $this->_nbPagePdf, 460, 725, 'UTF-8');
+		  }
+		  unset($this->_pagePdf);		
+		  $this->_docPdf->save('pdfFiles/'.$filename.'.pdf');
+		  header("Content-type: application/pdf");
+		  header("Content-Disposition: attachment; filename=\"".$filename.".pdf\"");
+		  header("Content-length: ".filesize('pdfFiles/'.$filename.'.pdf'));
+		  print file_get_contents('pdfFiles/'.$filename.'.pdf');
+		  $this->_helper->layout->disableLayout();
+		  $this->_helper->viewRenderer->setNoRender(TRUE);	
+	} catch (Zend_Pdf_Exception $e) {
+		  die ('PDF error: ' . $e->getMessage());  
+		} catch (Exception $e) {
+			print	$e->getTraceAsString();
+		  die ('Application error: ' . $e->getMessage()); 
+			$stringFault = "<BR/>Il se peut que vous ayiez une anomalie d'écriture en base sur :<BR/><BR/><BR/>". "Contactez le Mécano de la Générale";
+			throw new Exception($stringFault);
+
+		  print	$e->getTraceAsString();
+		  die ('Application error: ' . $e->getMessage());    
+		}	 
+    }
+
+
+
+
     
     public function addAction()
     {
@@ -917,18 +1448,20 @@ class MngtbController extends Zend_Controller_Action
          /**
          * 	Call to GenForm extension
          */
-         
-	$className=$this->classForm ;
-        $form = new $className($this->params['t'], $private);        
-        $this->view->buildForm($form, $this->view->tableName);
-        $form->submit->setLabel('Save');
+        
+	$className=$this->classForm ; 
+        $form = new $className($this->params['t'], $private);       
         $this->view->form = $form;
         $className=$this->classTable ;
         $records = new $className($this->params['t']);
+        $id = $this->_request->getParam('id', 0);
+        $row=$records->getRecord($id);if (isset($row['locked']) && $row['locked']==1){$notLocked=False;}else{$notLocked=True;}
+        $this->view->buildForm($form, $this->view->tableName,$xform= '', $notLocked);
+        
         if(!isset($this->params['page'])){$valpage=1;}else{ $valpage = $this->params['page'];}
     	Zend_Registry::set('page', $valpage);
    
-        if ($this->getRequest()->isPost()) {
+        if ($this->getRequest()->isPost()) {   
         	 
         	if ($this->params['t'] =='tNomenclature'){
         		$this->noXmlRecurse($_POST['modelOption'], 0, '/paragrele');
@@ -974,19 +1507,18 @@ class MngtbController extends Zend_Controller_Action
             			unset($data[$vect['name']]);
             		}
        		
-            		if(preg_match('/_smul/', $vect['name'])==1){  //print $vect['name']."<BR/>"; var_dump($data);die();
-
-						$data[$vect['name']]=implode(',', $data[$vect['name']]);
+            		if((preg_match('/_smul/', $vect['name'])==1) && $data[$vect['name']]!=''){  //print $vect['name']."<BR/>"; var_dump($data);die();
+							$data[$vect['name']]=implode(',', $data[$vect['name']]);
 					}
             		
             	}
                 $id = (int)$form->getValue('id');
-                
+               
                 if(isset($_FILES['filename'])){
         			$data['mime']=$_FILES['filename']['type'];						
 					$data['filename']=$_FILES['filename']['name'];
         		}
-                $records->updateRecord($id, $data);
+                $records->updateRecord($id, $data); 
                                 
                 /**
                  * 	Check if Indexing is needed
@@ -1003,13 +1535,13 @@ class MngtbController extends Zend_Controller_Action
 					}
                 	$data['id']=(string)$id;
                 	$this->view->getHelper('IndexSearch')->upDateIndex($data, $this->view->indexor, $this->view->form->IsIndexed);                	        	
-                }
-                
+                } 
+               
 		if($form->is_ListJson){    			
 			$res= $records->fetchAll();
     			$this->view->buildJson($res, $this->params['t'], $form->vectJson);    				
     		}  
-    		
+		
     		/**
     		 *	Personal data update
     		 */
@@ -1026,7 +1558,7 @@ class MngtbController extends Zend_Controller_Action
             }
         } else {
             $id = $this->_request->getParam('id', 0);
-            if ($id > 0) {
+            if ($id >= 0) {
             	$row=$records->getRecord($id);
             	foreach($row as $key => $value){            		
 			if($key=='password')
@@ -1034,7 +1566,13 @@ class MngtbController extends Zend_Controller_Action
 				$row['password']='';
 			}elseif(preg_match('/_smul/', $key)==1){
 				$row[$key]=explode(",", $row[$key]);
-			}			
+			}elseif(($key=='locked')&& $value!=1){				
+					$form->submit->setLabel('Enregistrer');        
+			}
+			if(is_object($form->submit)){
+				$form->submit->setLabel('Enregistrer');	
+			}
+			
             	}
                 $form->populate($row);
             }

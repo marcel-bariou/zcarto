@@ -1,0 +1,3718 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rapsody V 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-22 13:44+0100\n"
+"PO-Revision-Date: 2009-04-22 14:15+0100\n"
+"Last-Translator: Marcel Bariou <marcel.bariou@brasnah.fr>\n"
+"Language-Team: Marcel Bariou <marcel.bariou@brasnah.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: /var/www/html/\n"
+"X-Poedit-SearchPath-0: dev_rapsody\n"
+"X-Poedit-SearchPath-1: dev_rapsody/applications/models\n"
+"X-Poedit-SearchPath-2: dev_rapsody/applications/controllers\n"
+"X-Poedit-SearchPath-3: dev_rapsody/applications/views/scripts\n"
+"X-Poedit-SearchPath-4: dev_rapsody/applications/views/scripts/index\n"
+"X-Poedit-SearchPath-5: dev_rapsody/applications/views/scripts/auth\n"
+"X-Poedit-SearchPath-6: dev_rapsody/applications/views/scripts/error\n"
+"X-Poedit-SearchPath-7: dev_rapsody/applications/views/scripts/expert\n"
+"X-Poedit-SearchPath-8: dev_rapsody/applications/views/scripts/forum\n"
+"X-Poedit-SearchPath-9: dev_rapsody/applications/views/scripts/mail\n"
+"X-Poedit-SearchPath-10: dev_rapsody/applications/views/scripts/map\n"
+"X-Poedit-SearchPath-11: dev_rapsody/applications/views/scripts/mngtb\n"
+"X-Poedit-SearchPath-12: dev_rapsody/applications/views/scripts/request\n"
+"X-Poedit-SearchPath-13: dev_rapsody/applications/views/scripts/search\n"
+"X-Poedit-SearchPath-14: data/papweb/lib_zdf/Zend/Db\n"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_k.php:2
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_k.php:4
+msgid "Privacy policy"
+msgstr "Confidentialité"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:2
+msgid "Rapsody Online Services has been created"
+msgstr "Les services en ligne Rapsody ont été créés"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:2
+msgid "to group all these services together on one platform."
+msgstr "pour regrouper ensemble tous ces services sur une plateforme."
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:3
+msgid "For patients living with a rare disease,"
+msgstr "Pour des patients vivant avec une maladie rare,"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:3
+msgid "chronic and severe,"
+msgstr "chronique et difficile,"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:3
+msgid "care is not restricted to medical and paramedical care."
+msgstr "l'attention n'est pas limitée aux soins médicaux et paramédicaux."
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:4
+msgid "They require other types of care throughout their entire lives:"
+msgstr "Ils sont besoin d'autres types de services tout au long de leur vie:"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:4
+msgid "information and support via help lines,"
+msgstr "information et support via les centres d'appel,"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:5
+msgid "tools to break their isolation, leisure activities, respite care services."
+msgstr "outils pour rompre leur isolement, activités de loisir, services de répit."
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:6
+msgid "Login here to enter the details of a help line"
+msgstr "Authentifiez vous ici pour fournir le détail des données d'un centre d'appel"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:6
+msgid "to record a caller, to record a call"
+msgstr "pour enregistrer un appelant ou un appel"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:7
+msgid "to add a recreation programme or add a respite care service."
+msgstr "pour ajouter un programme de centre de loisirs ou décrire les services d'un centre de répit"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:18
+msgid "About Rapsody"
+msgstr "A propos de Rapsody"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:18
+msgid "Home Page"
+msgstr "Page d'accueil"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:18
+msgid "Maps"
+msgstr "Cartes"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:18
+msgid "Partners & Credits"
+msgstr "Partenaires et Crédits"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:38
+msgid "Services European map"
+msgstr "Cartes des services"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:39
+msgid "RapsodyOnline F.A.Q"
+msgstr "F.A.Q RapsodyOnline"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:40
+msgid "News"
+msgstr "Nouvelles"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:41
+msgid "Rapsody Documents"
+msgstr "Documents Rapsody"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:42
+msgid "Rapsody resources"
+msgstr "Ressources Rapsody"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_m.php:43
+msgid "Eurordis active Forums"
+msgstr "Forums actifs"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_t.php:4
+msgid "Knowledge base"
+msgstr "Base de connaissances"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_t.php:5
+#: dev_rapsody/applications/views/scripts/insert_menu.php:145
+msgid "Respite Services"
+msgstr "Centres de repos"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_t.php:6
+msgid "Recreation Centers"
+msgstr "Centres de loisirs"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_t.php:7
+msgid "Help lines"
+msgstr "Centres d'appel"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_t.php:19
+msgid "Thesaurus"
+msgstr "Thesaurus"
+
+#: dev_rapsody/applications/views/scripts/insert_menu_t.php:20
+msgid "Help"
+msgstr "Aide"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:36
+msgid "Current user"
+msgstr "Utilisateur courant"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:39
+msgid "Logout"
+msgstr "Quitter"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:39
+msgid "Your profile"
+msgstr "Votre profil"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:47
+msgid "Your specific access"
+msgstr "Vos accès spécifiques"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:66
+msgid "Write an Article"
+msgstr "Ecrire un article"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:72
+msgid "Manage Medias"
+msgstr "Gérer les médias"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:78
+msgid "Manage document"
+msgstr "Gérer les documents"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:84
+msgid "Validate an Article"
+msgstr "Valider un article"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:98
+#: dev_rapsody/applications/views/scripts/insert_menu.php:215
+msgid "Manage your organisation"
+msgstr "Gérer votre organisation"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:104
+msgid "Services Respite centers"
+msgstr "Centres de repits"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:110
+msgid "Services Call centers"
+msgstr "Centres d'appels"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:116
+msgid "Services Leisures center"
+msgstr "Centre de loisirs"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:126
+msgid "Manage groups data"
+msgstr "Gérer les groupes"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:131
+#: dev_rapsody/applications/views/scripts/insert_menu.php:199
+msgid "Manage user data"
+msgstr "Données utilisateurs"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:136
+msgid "Manage parameters list"
+msgstr "Listes de paramètres"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:139
+msgid "External link"
+msgstr "Liens externes"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:142
+msgid "Manage organisations"
+msgstr "Gérer les organisations"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:148
+msgid "Leisures Services"
+msgstr "Services de loisirs"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:152
+msgid "Call Centers services"
+msgstr "Services des centres d'appels"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:157
+msgid "Sending mail"
+msgstr "Envoi de mail"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:160
+msgid "Moderate a comment"
+msgstr "Modération"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:186
+msgid "Manage a call"
+msgstr "Gérer un appel"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:190
+msgid "Forum creation"
+msgstr "Création de forums"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:194
+msgid "Assign to a forum"
+msgstr "Affecter à un forum"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:205
+msgid "Start a conversation"
+msgstr "Lancer une conversation"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:221
+msgid "Manage respite centers"
+msgstr "Gérer les centres de loisirs "
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:231
+msgid "Manage your comment"
+msgstr "Gérer votre commentaire"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:234
+msgid "Access to Forum"
+msgstr "Accès au forum"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:242
+msgid "Manage knownledge"
+msgstr "Gestion les connaissances"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:245
+msgid "Access to request"
+msgstr "Accès aux Appels"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:257
+msgid "Private document"
+msgstr "Documents privés"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:265
+msgid "Not connected"
+msgstr "Non connecté"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:266
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#: dev_rapsody/applications/views/scripts/insert_menu.php:268
+msgid "Login !"
+msgstr "Se connecter"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:5
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:5
+msgid "Select the search range"
+msgstr "Etendue de recherche"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:6
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:6
+msgid "All the web site"
+msgstr "Tout le site"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:7
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:7
+msgid "Knownledge base"
+msgstr "Base de connaissances"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:8
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:8
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:177
+msgid "Calls & Requests"
+msgstr "Appels et Requêtes"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:9
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:9
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:73
+msgid "Centers"
+msgstr "Centres"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:10
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:10
+msgid "Medias "
+msgstr "Medias"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:11
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:11
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:123
+msgid "Articles"
+msgstr "Articles"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:12
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:12
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:141
+msgid "Documents"
+msgstr "Documents"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:13
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:13
+msgid "Forum"
+msgstr "Forum"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std_old.php:14
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:14
+msgid "Web Links "
+msgstr "Sites Web"
+
+#: dev_rapsody/applications/views/scripts/insert_search_std.php:33
+msgid "Select a language"
+msgstr "Choisir une langue"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:24
+msgid "Select center type"
+msgstr "Choisir le type de centre"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:25
+msgid "Call center"
+msgstr "Centres d'appels"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:26
+msgid "Respite center"
+msgstr "Centres de repos"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:27
+msgid "Leisure center"
+msgstr "Centre de loisirs "
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:28
+msgid "Yourself"
+msgstr "Vous même"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:30
+msgid "Respite"
+msgstr "Répit"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:31
+msgid "Leisure"
+msgstr "Loisirs"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:32
+msgid "Call"
+msgstr "Appel"
+
+#: dev_rapsody/applications/views/scripts/insert_search_center.php:33
+msgid "You"
+msgstr "Vous"
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:23
+#: dev_rapsody/applications/views/scripts/auth/login.php:38
+msgid "Login"
+msgstr "Authentifiant"
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:27
+msgid "Your mail address"
+msgstr "Votre adresse de courriel"
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:29
+#: dev_rapsody/applications/views/scripts/auth/login.php:39
+msgid "Get It !"
+msgstr "Demandez !"
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:32
+msgid "Use a valid username and password to gain access to your specific tools."
+msgstr "Utiliser un nom et un mot de passe valide pour accéder à vos ressources spécifiques."
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:33
+msgid "Warning! JavaScript must be enabled for proper operation of the Administrator Back-end\t"
+msgstr "Attention ! Javascript doit être validé pour que les opérations d'administration se déroulent correctement\t"
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:35
+msgid "Return to site Home Page"
+msgstr "Retour à la page d'accueil"
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:36
+msgid "Forgot your login, supply your mail address to get it !"
+msgstr "Mot de passe oublié, veuillez fournir votre adresse de courriel pour l'obtenir ! "
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:40
+#: dev_rapsody/applications/views/scripts/search/builddico.php:24
+#: dev_rapsody/applications/views/scripts/search/keyword.php:136
+#: dev_rapsody/applications/views/scripts/search/index.php:24
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:213
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:125
+msgid "A PAPWEB application LAMPJ platform BRASNAH &copy; 1995-"
+msgstr "Une application PAPWEB plate-forme LAMPJ BRASNAH &copy;1995-"
+
+#: dev_rapsody/applications/views/scripts/auth/login.php:40
+#: dev_rapsody/applications/views/scripts/search/builddico.php:24
+#: dev_rapsody/applications/views/scripts/search/keyword.php:136
+#: dev_rapsody/applications/views/scripts/search/index.php:24
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:213
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:125
+msgid ". Contact for support"
+msgstr ". Pour le support contactez "
+
+#: dev_rapsody/applications/views/scripts/search/builddico.php:23
+#: dev_rapsody/applications/views/scripts/search/index.php:23
+msgid "Knownledge Indexer"
+msgstr "Indexation des connaissances"
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:48
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:36
+msgid "For each domain, the current page displays an alphabetical ordered list of used words in database,"
+msgstr "Pour chaque domaine, la page courante affiche les mots de la base de données par ordre alphabétique, "
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:49
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:37
+msgid " to help you during a search process. According to your needs :"
+msgstr " pour vous aider durant le processus de recherche. Selon vos besoins :"
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:50
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:38
+msgid " A letter of the alphabet gives you a list of words per domains, "
+msgstr "Tous les mots des domaines sont donnés par lettre de l'alphabet, "
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:51
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:39
+msgid " and starting with this letter. This is very useful for a  word search "
+msgstr " selon leur première lettre. Ceci est très commode pour une recherche de mots"
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:52
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:40
+msgid "pertaining to same familiy (same root)."
+msgstr "appartenant à la même famille (racine identique)."
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:53
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:41
+msgid "For each domain words are alphabetically ordered."
+msgstr "Dans chaque domaine les mots sont ordonnés par ordre alphabétique."
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:54
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:42
+msgid "A default display gives the general keyword"
+msgstr "Un affichage par défaut donne les mots clés généraux "
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:63
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:51
+msgid "Dictionary words "
+msgstr "Mots du dictionnaire"
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:67
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:55
+msgid "ALPHABETICAL LIST"
+msgstr "LISTE ALPHABETIQUE"
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:68
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:56
+msgid "DATABASE"
+msgstr "BASE DE DONNEES"
+
+#: dev_rapsody/applications/views/scripts/search/keyword.php:135
+#: dev_rapsody/applications/views/scripts/search/old_keyword.php:124
+msgid "Eurordis Dictionary"
+msgstr "Dictionnaire Eurordis"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:10
+msgid "This search page get you access, only  to criteria based search :"
+msgstr "Cette page vous donne uniquement accès , seulement à une recherche basée sur des critères :"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:11
+msgid " activities, medicares, commodities, and so on ... "
+msgstr "activités, soins médicaux, commodités, etc ..."
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:12
+msgid " You have to define the country and at least a criteria before running your search."
+msgstr " Vous définir le pays et au moins un critère avant de lancer votre recherche. "
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:13
+msgid "   On an other hand if you want to start à localisated (by country) use the Map Search way => "
+msgstr " Par ailleurs, si vous souhaitez lancer une recherche sur une base géographique (par pays) veillez utiliser la carte géographique =>  "
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:14
+msgid "Centers Localization links"
+msgstr "Liens vers les centres localisés géographiquement "
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:15
+msgid " on the left menu."
+msgstr " sur le menu à gauche de l'écran. "
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:18
+msgid "Database"
+msgstr "Base de données"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:19
+msgid "Summary"
+msgstr "Résumé"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:20
+msgid "Link"
+msgstr "Lien"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:55
+msgid "Knownledges"
+msgstr "Connaissances"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:90
+msgid "Media"
+msgstr "Media"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:159
+msgid "Forums"
+msgstr "Forums"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:192
+msgid "Links"
+msgstr "Liens"
+
+#: dev_rapsody/applications/views/scripts/search/searchdico.php:212
+msgid "Search result"
+msgstr "Résultats de recherche"
+
+#: dev_rapsody/applications/views/scripts/mngtb/displaycenter.php:30
+msgid "Phone : "
+msgstr "Phone :"
+
+#: dev_rapsody/applications/views/scripts/mngtb/displaycenter.php:31
+msgid "Fax.: "
+msgstr "Fax.:"
+
+#: dev_rapsody/applications/views/scripts/mngtb/displaycenter.php:32
+msgid "Email: "
+msgstr "Emel:"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:25
+msgid "Select a status"
+msgstr "Sélectionner un statut"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:25
+msgid "Public"
+msgstr "Public"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:25
+msgid "Wait"
+msgstr "Attendre"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:38
+msgid "list"
+msgstr "liste"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:63
+msgid "Nom"
+msgstr "Nom"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:64
+msgid "Prénom"
+msgstr "Prénom"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:65
+msgid "Ville"
+msgstr "Ville"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:66
+msgid "Utilisateur"
+msgstr "Utilisateur"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:67
+msgid "Courriel"
+msgstr "Courriel"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:68
+msgid "Editer"
+msgstr "Editer"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:84
+msgid "Titre"
+msgstr "Titre"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:85
+msgid "Organisation"
+msgstr "Organisation"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:86
+msgid "Statut"
+msgstr "Statut"
+
+#: dev_rapsody/applications/views/scripts/mngtb/perso.php:87
+msgid "Commentaires"
+msgstr "Commentaires"
+
+#: dev_rapsody/applications/views/scripts/map/index.php:32
+msgid "WELCOME"
+msgstr "BIENVENUE"
+
+#: dev_rapsody/applications/views/scripts/map/index.php:33
+msgid "Welcome to visitor from"
+msgstr "Bienvenue cher visiteur de "
+
+#: dev_rapsody/applications/views/scripts/map/index.php:34
+msgid "Visitor"
+msgstr "Visiteur"
+
+#: dev_rapsody/applications/views/scripts/map/index.php:35
+msgid "You seem to be located somewhere around here !"
+msgstr "Vous semblez être localisé(e) à proximité d'ici !"
+
+#: dev_rapsody/applications/views/scripts/map/index.php:36
+msgid "Rare Deseases Centers geolocalisation"
+msgstr "Géolocalisation des centres dédiés aux maladies rares"
+
+#: dev_rapsody/applications/views/scripts/index/viewfaq.php:12
+msgid "Translation"
+msgstr "Traduction"
+
+#: dev_rapsody/applications/views/scripts/index/viewlink.php:25
+#: dev_rapsody/applications/views/scripts/index/viewlink.php:33
+msgid "Links list"
+msgstr "Liste de liens "
+
+#: dev_rapsody/applications/views/scripts/index/viewlink.php:36
+#: dev_rapsody/applications/views/scripts/index/viewmedia.php:30
+#: dev_rapsody/applications/views/scripts/index/viewmedia.php:39
+#: dev_rapsody/applications/views/scripts/index/privdocument.php:29
+#: dev_rapsody/applications/views/scripts/index/privdocument.php:38
+#: dev_rapsody/applications/views/scripts/index/viewdocument.php:29
+#: dev_rapsody/applications/views/scripts/index/viewdocument.php:38
+msgid "Proposed by => "
+msgstr "Proposé par => "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:55
+msgid "This search page gets you access only  to the knowledge base search. "
+msgstr "Cette page vous donne accès à la recherche sur la base de connaissances. "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:56
+msgid "For each field, yous can enter as many words as you want separated by space."
+msgstr "Pour chaque champ, vous pouvez entrer autant de mots que vous le souhaitez, séparés par des espaces. "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:57
+msgid "For a specific field the search will be based on logical OR between words"
+msgstr "Pour un champ particulier, la recherche sera basée sur un OU logique (OR) entre les mots "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:58
+msgid "If you set an inter-related fields search expression, "
+msgstr "Si vous définissez une expression de recherche entre les champs, "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:59
+msgid "inside a field the logical expression between words will be a logical OR "
+msgstr "au sein d'un champ l'opérateur logique entre les mots sera implicitement un OU (OR) "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:60
+msgid " and between fields the logical expression will be a logical AND"
+msgstr " et entre les champs l'expression logique sera un ET (AND) "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:61
+msgid " You can run search according to three ways : <UL> "
+msgstr " Vous pouvez lancer votre recherche en respect de l'un des trois modes :<UL>"
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:62
+msgid "For a global OR logical search expression, processed on each field,  "
+msgstr "Pour une recherche globale avec une expression à base de OU, faite sur chaque champ "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:63
+msgid "you type words separated by space in the field &quot;Global Search&quot;, "
+msgstr "vous introduisez des mots séparés par des espaces dans le champ &quot;Recherche Globale&quot;, "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:64
+msgid "the other fields of the form  will be skipped automatically,  "
+msgstr "automatiquement les autres champs du formulaire ne seront pas pris en compte, "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:65
+msgid "For a search on a specific field, enter you word in this field only "
+msgstr "Pour une recherche sur un champ particulier, entrez vos mots uniquement dans ce champ "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:66
+msgid " For a search between several fields enter you word in theses fields  only, "
+msgstr " Pour une recherche sur différents champs entrez vos mots uniquement dans le champ concerné."
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:67
+msgid "and nothing in the field &quot;Global Search&quot;."
+msgstr "et rien dans le champ &quot;Recherche globale&quot;."
+
+#: dev_rapsody/applications/views/scripts/index/gridreq2.php:185
+msgid "Please would you fill in some data to build in some search request"
+msgstr "Veuillez entrer quelques données pour construire votre requête de recherche "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq.php:57
+msgid "This search page get you access, only  to criteria based search : activities, medicares, commodities, and so on .."
+msgstr "Cette page vous donne uniquement accès , seulement à une recherche basée sur des critères activités, soins médicaux, services, etc ..."
+
+#: dev_rapsody/applications/views/scripts/index/gridreq.php:58
+msgid "You have to define the country and at least a criteria before running your search."
+msgstr " Vous devez définir le pays et au moins un critère avant de lancer votre recherche. "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq.php:59
+msgid "On an other hand if you want to start à localisated (by country) use the Map Search way"
+msgstr " Par ailleurs, si vous souhaitez lancer une recherche sur une base géographique (par pays) veillez utiliser la recherche cartographique  "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq.php:61
+msgid "on the left menu"
+msgstr " sur le menu de gauche. "
+
+#: dev_rapsody/applications/views/scripts/index/gridreq.php:174
+msgid "Typing error"
+msgstr "Erreur de frappe ou de syntaxe"
+
+#: dev_rapsody/applications/views/scripts/index/viewmedia.php:27
+#: dev_rapsody/applications/views/scripts/index/viewmedia.php:36
+msgid "Medium list "
+msgstr "Liste des médias"
+
+#: dev_rapsody/applications/views/scripts/index/displayrequest.php:35
+msgid "QUESTION"
+msgstr "QUESTION"
+
+#: dev_rapsody/applications/views/scripts/index/displayrequest.php:35
+msgid "ANSWER"
+msgstr "REPONSE"
+
+#: dev_rapsody/applications/views/scripts/index/displayrequest.php:35
+msgid "OTHER"
+msgstr "AUTRE"
+
+#: dev_rapsody/applications/views/scripts/index/privdocument.php:25
+#: dev_rapsody/applications/views/scripts/index/privdocument.php:34
+#: dev_rapsody/applications/views/scripts/index/viewdocument.php:25
+#: dev_rapsody/applications/views/scripts/index/viewdocument.php:34
+msgid "Download"
+msgstr "Télécharger"
+
+#: dev_rapsody/applications/views/scripts/index/privdocument.php:26
+#: dev_rapsody/applications/views/scripts/index/viewdocument.php:26
+msgid "The searched document "
+msgstr "Le document recherché"
+
+#: dev_rapsody/applications/views/scripts/index/privdocument.php:35
+#: dev_rapsody/applications/views/scripts/index/viewdocument.php:35
+msgid "Documents collections"
+msgstr "Liste de documents "
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:39
+msgid "BRIEVE PRESENTATION"
+msgstr "PRESENTATION RAPIDE"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:40
+msgid "DETAILED PRESENTATION"
+msgstr "PRESENTATION DETAILLEE"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:42
+msgid "Adresse"
+msgstr "Adresse"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:43
+msgid "Postal Code"
+msgstr "Code Postal"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:44
+msgid "Town"
+msgstr "Ville"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:45
+msgid "State/County"
+msgstr "Etat/Canton"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:46
+msgid "Country"
+msgstr "Pays"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:48
+msgid "Phone"
+msgstr "Téléphone"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:49
+msgid "Fax"
+msgstr "Fax"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:50
+msgid "Email"
+msgstr "Emel"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:63
+msgid "Recreation center"
+msgstr "Centres de loisirs"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:65
+msgid "Hospitals"
+msgstr "Hôpitaux"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:70
+msgid "Activities"
+msgstr "Activités"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:84
+msgid "Stay duration"
+msgstr "Durée  moyenne du séjour"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:98
+msgid "Commodities"
+msgstr "Services divers"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:112
+msgid "Cares"
+msgstr "Soins"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:125
+msgid "Age group"
+msgstr "Groupes d'âges"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:139
+msgid "Breakdown cost"
+msgstr "Structure des coûts"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:152
+msgid "Insurance package"
+msgstr "Couverture assurance "
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:170
+msgid "Patient contact public phone"
+msgstr "Tél. n° public de contact"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:171
+msgid "Patient contact public mail"
+msgstr "Mail adresse publique de contact"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:172
+msgid "Website URL"
+msgstr "Adresse site Web"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:173
+msgid "Horary"
+msgstr "Horaires"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:174
+msgid "Acronym"
+msgstr "Acronyme"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:175
+msgid "Call Toll"
+msgstr "Tarif d'appel"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:193
+msgid "Spoken langages"
+msgstr "Langues parlées"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:207
+msgid "Deseases follow up"
+msgstr "Maladies suivies"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:222
+msgid "Make a comment about this center"
+msgstr "Faites un commentaire à propos de ce centre"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:225
+msgid "Only patient can make a comment, and they must be authenticate. Comments are moderated by RapsodyOnline."
+msgstr "Seuls les patients authentifiés peuvent faire un commentaire. Les commentaires sont modérés par RapsodyOnline."
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:235
+msgid "COMMENTS"
+msgstr "COMMENTAIRES"
+
+#: dev_rapsody/applications/views/scripts/index/displaycenter.php:238
+msgid "par"
+msgstr "par"
+
+#: dev_rapsody/applications/views/scripts/index/displayknown.php:28
+msgid "Native language keywords"
+msgstr "Mots clés en langue native"
+
+#: dev_rapsody/applications/views/scripts/index/displayknown.php:30
+msgid "English language keywords"
+msgstr "Mots clés en langue anglaise"
+
+#: dev_rapsody/applications/views/scripts/index/displayknown.php:33
+msgid "W.H.O reference"
+msgstr "Référence O.M.S"
+
+#: dev_rapsody/applications/views/scripts/index/displayknown.php:50
+msgid "Orphanet links"
+msgstr "Liens Opha.net"
+
+#: dev_rapsody/applications/views/scripts/index/viewnews.php:33
+msgid "Searched news"
+msgstr "Nouvelles recherchées"
+
+#: dev_rapsody/applications/views/scripts/index/viewnews.php:37
+#: dev_rapsody/applications/views/scripts/index/viewnews.php:48
+#: dev_rapsody/applications/views/scripts/index/index.php:31
+msgid "Published on "
+msgstr "Publié le "
+
+#: dev_rapsody/applications/views/scripts/index/viewnews.php:44
+msgid "Last news"
+msgstr "Dernières nouvelles"
+
+#: dev_rapsody/applications/views/scripts/index/index.php:33
+msgid "Read more ..."
+msgstr "Lire plus ... "
+
+#: dev_rapsody/applications/views/scripts/index/viewforum.php:26
+msgid "The searched forum "
+msgstr "Le forum recherché "
+
+#: dev_rapsody/applications/views/scripts/index/viewforum.php:33
+msgid "Forums list "
+msgstr "Liste des forums "
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:63
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:111
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:67
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:115
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:66
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:114
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:58
+msgid "register on the "
+msgstr "Enregistré le "
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:63
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:111
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:67
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:115
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:66
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:114
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:58
+msgid "has created"
+msgstr "a créé "
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:63
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:111
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:67
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:115
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:66
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:114
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:58
+msgid "messages"
+msgstr "messages"
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:67
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:115
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:71
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:119
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:70
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:118
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:62
+msgid "Unknown "
+msgstr "inconnu"
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:72
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:123
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:76
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:128
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:75
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:126
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:70
+msgid "Report an incorrectness "
+msgstr "Signalez une incorrection "
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:74
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:125
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:78
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:130
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:77
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:128
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:72
+msgid "Citate and edit "
+msgstr "Citer et éditer"
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:78
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:82
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:81
+msgid "Modify your post "
+msgstr "Modifier le débat"
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:80
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:84
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:83
+msgid "Delete your post "
+msgstr "Supprimer le débat"
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:86
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:138
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:90
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:143
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:89
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:141
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:85
+msgid "Make an answer "
+msgstr "Faire une réponse"
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:129
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:134
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:132
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:76
+msgid "Modify your answer "
+msgstr "Modifier votre réponse "
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:131
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:136
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:134
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:78
+msgid "Delete your answer "
+msgstr "Supprimer votre réponse "
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:147
+#: dev_rapsody/applications/views/scripts/forum/listdetail.php:151
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:93
+msgid "Create a new thread "
+msgstr "Créer une nouvelle discussion"
+
+#: dev_rapsody/applications/views/scripts/forum/contribadd.php:157
+msgid "Add a new record"
+msgstr "Ajouter un enregistrement"
+
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:157
+msgid "Update the data record"
+msgstr "Mise à jour"
+
+#: dev_rapsody/applications/views/scripts/forum/contribedit.php:237
+msgid "Typing error on"
+msgstr "Erreur de frappe ou de syntaxe en entrée"
+
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:102
+msgid "Really, do you want to suppress this user"
+msgstr "Voulez vous vraiment supprimer cet utilisateur"
+
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:103
+msgid "Yes"
+msgstr "Oui"
+
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:104
+msgid "No"
+msgstr "Non"
+
+#: dev_rapsody/applications/views/scripts/forum/contribdelete.php:110
+msgid "This user isn ot in database !"
+msgstr "Cet utilisateur n'est pas en base de données"
+
+#: dev_rapsody/applications/views/scripts/request/displaycenter.php:30
+msgid "Phone.: "
+msgstr "Tél.:"
+
+#: dev_rapsody/applications/views/scripts/error/noaccess.php:28
+msgid "Access not allowed"
+msgstr "Accès non autorisé "
+
+#: dev_rapsody/applications/views/scripts/error/noaccess.php:29
+msgid "No access or error"
+msgstr "Pas d'accès ou erreur "
+
+#: dev_rapsody/applications/views/scripts/error/noaccess.php:30
+msgid "It seems you have no access to this page. So if you think it's an error send a request to the website administrator or to your contact inside Eurordis"
+msgstr "Il semblerait que vous n'avez pas accès à cette page. Si vous pensez que c'est une erreur, adressez une requête à l'administrateur ou à votre contact au sein d'Eurordis"
+
+#: dev_rapsody/applications/models/tOrganization.php:60
+#: dev_rapsody/applications/models/tOrganization.php:159
+#: dev_rapsody/applications/models/tOrganization.php:183
+#: dev_rapsody/applications/models/tForum.php:77
+#: dev_rapsody/applications/models/tForum.php:127
+#: dev_rapsody/applications/models/tForum.php:148
+#: dev_rapsody/applications/models/tKnownledge.php:82
+#: dev_rapsody/applications/models/tKnownledge.php:151
+#: dev_rapsody/applications/models/tKnownledge.php:171
+msgid "Name"
+msgstr "Nom"
+
+#: dev_rapsody/applications/models/tOrganization.php:61
+msgid "Address (line 1)"
+msgstr "Adresse ligne 1"
+
+#: dev_rapsody/applications/models/tOrganization.php:62
+msgid "Address (line 2)"
+msgstr "Adresse ligne2"
+
+#: dev_rapsody/applications/models/tOrganization.php:63
+msgid "Zip code"
+msgstr "Code postal"
+
+#: dev_rapsody/applications/models/tOrganization.php:65
+msgid "State"
+msgstr "Région"
+
+#: dev_rapsody/applications/models/tOrganization.php:70
+msgid "Comments"
+msgstr "Commentaires"
+
+#: dev_rapsody/applications/models/tOrganization.php:71
+msgid "Organization type"
+msgstr "Types d'organisation"
+
+#: dev_rapsody/applications/models/tOrganization.php:72
+msgid "Latitude"
+msgstr "Latitude"
+
+#: dev_rapsody/applications/models/tOrganization.php:73
+msgid "Longitude"
+msgstr "Longitude"
+
+#: dev_rapsody/applications/models/tOrganization.php:74
+msgid "Thumbnail File"
+msgstr "Fichier de vignette"
+
+#: dev_rapsody/applications/models/tOrganization.php:75
+msgid "Secured Name"
+msgstr "Nom sécurisé"
+
+#: dev_rapsody/applications/models/tOrganization.php:77
+msgid "Organization management"
+msgstr "Gestion des organisations"
+
+#: dev_rapsody/applications/models/tOrganization.php:78
+#: dev_rapsody/applications/models/tForum.php:81
+#: dev_rapsody/applications/models/tKnownledge.php:91
+msgid "The simple theme does not use all options some of them are limited to the advanced theme"
+msgstr "Le thème de base n'utilise pas les options, certaines de ces dernières sont limitées aux thèmes avancés"
+
+#: dev_rapsody/applications/models/tOrganization.php:84
+msgid "Select a level"
+msgstr "Choisissez un niveau"
+
+#: dev_rapsody/applications/models/tOrganization.php:84
+msgid "Secured"
+msgstr "Sécurisé"
+
+#: dev_rapsody/applications/models/tOrganization.php:84
+msgid "Not Secured"
+msgstr "Non Sécurisé"
+
+#: dev_rapsody/applications/models/tOrganization.php:97
+msgid "Select an organization type"
+msgstr "Sélectionner un type d'organisation"
+
+#: dev_rapsody/applications/models/tOrganization.php:135
+#: dev_rapsody/applications/models/tForum.php:96
+#: dev_rapsody/applications/models/tKnownledge.php:116
+msgid "Reload"
+msgstr "Recharger"
+
+#: dev_rapsody/applications/models/tOrganization.php:136
+#: dev_rapsody/applications/models/tForum.php:97
+#: dev_rapsody/applications/models/tKnownledge.php:117
+msgid "Add"
+msgstr "Ajouter"
+
+#: dev_rapsody/applications/models/tOrganization.php:137
+#: dev_rapsody/applications/models/tForum.php:98
+#: dev_rapsody/applications/models/tKnownledge.php:118
+msgid "Update"
+msgstr "Mise à jour"
+
+#: dev_rapsody/applications/models/tOrganization.php:138
+#: dev_rapsody/applications/models/tForum.php:99
+#: dev_rapsody/applications/models/tKnownledge.php:119
+msgid "Cancel"
+msgstr "Annulez"
+
+#: dev_rapsody/applications/models/tForum.php:78
+#: dev_rapsody/applications/models/tForum.php:128
+#: dev_rapsody/applications/models/tKnownledge.php:85
+msgid "Description"
+msgstr "Description"
+
+#: dev_rapsody/applications/models/tForum.php:80
+msgid "Forums management"
+msgstr "Gérer les forums"
+
+#: dev_rapsody/applications/models/tForum.php:149
+msgid "Number of talks"
+msgstr "Nombre de discussions"
+
+#: dev_rapsody/applications/models/tForum.php:150
+msgid "Number of messages"
+msgstr "Nombre de messages"
+
+#: dev_rapsody/applications/models/tForum.php:151
+msgid "Last message"
+msgstr "Dernier message"
+
+#: dev_rapsody/applications/models/tKnownledge.php:83
+msgid "Native language keyword"
+msgstr "Mots clés en langue native"
+
+#: dev_rapsody/applications/models/tKnownledge.php:84
+msgid "English language keyword"
+msgstr "Mots clés en langue anglaise"
+
+#: dev_rapsody/applications/models/tKnownledge.php:86
+msgid "W.H.O Desease category"
+msgstr "Catégories O.M.S de maladies"
+
+#: dev_rapsody/applications/models/tKnownledge.php:87
+msgid "Orpha.net Desease category"
+msgstr "Catégorie Opha.net de maladies"
+
+#: dev_rapsody/applications/models/tKnownledge.php:88
+#: dev_rapsody/applications/models/tKnownledge.php:152
+#: dev_rapsody/applications/models/tKnownledge.php:172
+msgid "Language"
+msgstr "Langue"
+
+#: dev_rapsody/applications/models/tKnownledge.php:90
+msgid "Knownledge base  management"
+msgstr "Gestion de la base de données des connaissances"
+
+#: dev_rapsody/applications/models/tKnownledge.php:153
+msgid "Native keyword"
+msgstr "Mots clés natifs"
+
+#: dev_rapsody/applications/models/tKnownledge.php:173
+msgid "Native Keyword"
+msgstr "Mots clés natifs"
+
+#: dev_rapsody/applications/models/fGridreq2.php:60
+msgid "Global Search"
+msgstr "Recherche globale"
+
+#: dev_rapsody/applications/models/fGridreq2.php:61
+msgid "Title"
+msgstr "Titre"
+
+#: dev_rapsody/applications/models/fGridreq2.php:63
+msgid "English keyword"
+msgstr "Mots anglais"
+
+#: dev_rapsody/applications/models/fGridreq2.php:83
+#: dev_rapsody/applications/models/fGridreq3.php:151
+msgid "Search"
+msgstr "Recherche"
+
+#: dev_rapsody/applications/models/tContrib.php:76
+#: dev_rapsody/applications/models/tTalk.php:79
+msgid "Created by "
+msgstr "Créé par"
+
+#: dev_rapsody/applications/models/tContrib.php:78
+#: dev_rapsody/applications/models/tTalk.php:81
+msgid "Creation date"
+msgstr "Date de création"
+
+#: dev_rapsody/applications/models/tContrib.php:79
+msgid "Talk"
+msgstr "Discussion"
+
+#: dev_rapsody/applications/models/tContrib.php:81
+msgid "Talk contributions management"
+msgstr "Gestion des contributions aux discussions"
+
+#: dev_rapsody/applications/models/tContrib.php:91
+#: dev_rapsody/applications/models/tTalk.php:94
+msgid "Select a User"
+msgstr "Sélectionner un utilisateur"
+
+#: dev_rapsody/applications/models/tContrib.php:104
+msgid "Select a Talk"
+msgstr "Sélectionner une discussion"
+
+#: dev_rapsody/applications/models/tContrib.php:164
+#: dev_rapsody/applications/models/tContrib.php:184
+msgid "Number"
+msgstr "Numéro"
+
+#: dev_rapsody/applications/models/tContrib.php:185
+msgid "Content"
+msgstr "Contenu"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:98
+#: dev_rapsody/applications/models/tCallCenter.php:91
+#: dev_rapsody/applications/models/tCallCenter.php:252
+#: dev_rapsody/applications/models/tComment.php:195
+#: dev_rapsody/applications/models/tRespiteCenter.php:98
+msgid "Organization"
+msgstr "Organisation"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:102
+#: dev_rapsody/applications/models/tRespiteCenter.php:102
+msgid "Duration stay"
+msgstr "Durée du séjour"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:103
+#: dev_rapsody/applications/models/tRespiteCenter.php:103
+msgid "Services"
+msgstr "Services"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:105
+#: dev_rapsody/applications/models/tRespiteCenter.php:105
+msgid "Hospital"
+msgstr "Hôpital"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:106
+#: dev_rapsody/applications/models/fGridreq3.php:62
+#: dev_rapsody/applications/models/tCallCenter.php:100
+#: dev_rapsody/applications/models/tRespiteCenter.php:106
+msgid "Languages"
+msgstr "Langues"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:107
+#: dev_rapsody/applications/models/tRespiteCenter.php:107
+msgid "Groups age"
+msgstr "Groupes d'âge"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:108
+#: dev_rapsody/applications/models/fGridreq3.php:63
+#: dev_rapsody/applications/models/tRespiteCenter.php:108
+msgid "Deseases"
+msgstr "Maladies"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:109
+#: dev_rapsody/applications/models/tRespiteCenter.php:109
+msgid "Access map"
+msgstr "Localisation géographique"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:110
+#: dev_rapsody/applications/models/tRespiteCenter.php:110
+msgid "Cost breakdown"
+msgstr "Structure des coûts"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:111
+#: dev_rapsody/applications/models/tRespiteCenter.php:111
+msgid "Insurance"
+msgstr "Assurances"
+
+#: dev_rapsody/applications/models/tLeisureCenter.php:114
+msgid "Informations on leisure center"
+msgstr "Infomations sur centre de loisirs"
+
+#: dev_rapsody/applications/models/tWebLnk.php:84
+msgid "Link name"
+msgstr "Nom du lien"
+
+#: dev_rapsody/applications/models/tWebLnk.php:85
+msgid "Document Author"
+msgstr "Auteur du document"
+
+#: dev_rapsody/applications/models/tWebLnk.php:87
+msgid "URL link"
+msgstr "URL du lien"
+
+#: dev_rapsody/applications/models/tWebLnk.php:90
+msgid "Media, document Web and links management"
+msgstr "Gestion des documents liens et média"
+
+#: dev_rapsody/applications/models/tUser.php:65
+msgid "Firstname"
+msgstr "Prénom"
+
+#: dev_rapsody/applications/models/tUser.php:69
+msgid "Password"
+msgstr "Mot de passe"
+
+#: dev_rapsody/applications/models/tUser.php:76
+#: dev_rapsody/applications/models/tGroup.php:61
+msgid "Roles"
+msgstr "Rôles"
+
+#: dev_rapsody/applications/models/tUser.php:80
+msgid "Keywords"
+msgstr "Mots clés"
+
+#: dev_rapsody/applications/models/tUser.php:82
+msgid "User type"
+msgstr "Type d'utilisateur"
+
+#: dev_rapsody/applications/models/tUser.php:83
+msgid "Membership"
+msgstr "Membre de"
+
+#: dev_rapsody/applications/models/tUser.php:85
+msgid "User management"
+msgstr "Gestion des utilisateurs"
+
+#: dev_rapsody/applications/models/tUser.php:104
+msgid "Select a user type"
+msgstr "Sélectionner un type d'utilisateur"
+
+#: dev_rapsody/applications/models/tUser.php:181
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: dev_rapsody/applications/models/tUser.php:182
+msgid "First Name"
+msgstr "Prénom principal"
+
+#: dev_rapsody/applications/models/tUser.php:184
+msgid "User"
+msgstr "Utilisateur"
+
+#: dev_rapsody/applications/models/tDeseases.php:77
+msgid "W.H.O ref."
+msgstr "Ref O.M.S"
+
+#: dev_rapsody/applications/models/tDeseases.php:79
+msgid "WHO desease nomenclature management"
+msgstr "Gestion de la nomenclature O.M.S des maladies"
+
+#: dev_rapsody/applications/models/tDeseases.php:127
+#: dev_rapsody/applications/models/tDeseases.php:146
+msgid "W.H.O. ref."
+msgstr "Réf. O.M.S"
+
+#: dev_rapsody/applications/models/fGridreq3.php:76
+msgid "Select a type of organisation"
+msgstr "Choisir un type d'organisation"
+
+#: dev_rapsody/applications/models/tCallCenter.php:94
+msgid "Support phone"
+msgstr "Téléphone support"
+
+#: dev_rapsody/applications/models/tCallCenter.php:95
+msgid "Support mail"
+msgstr "Mail de support"
+
+#: dev_rapsody/applications/models/tCallCenter.php:99
+msgid "Toll call"
+msgstr "Tarification appel"
+
+#: dev_rapsody/applications/models/tCallCenter.php:101
+msgid "Expertise"
+msgstr "Expertise"
+
+#: dev_rapsody/applications/models/tCallCenter.php:104
+msgid "Manage Call center information"
+msgstr "Gestion des centres d'appel"
+
+#: dev_rapsody/applications/models/tCallCenter.php:111
+msgid "Select an organisation"
+msgstr "Sélectionner une d'organisation"
+
+#: dev_rapsody/applications/models/tCallCenter.php:254
+msgid "Présentation"
+msgstr "Présentation"
+
+#: dev_rapsody/applications/models/tComment.php:73
+msgid "Comment Title"
+msgstr "Titre Commentaires"
+
+#: dev_rapsody/applications/models/tComment.php:74
+msgid "Comment Author ?"
+msgstr "Auteur du commentaire ?"
+
+#: dev_rapsody/applications/models/tComment.php:75
+msgid "Rated organization"
+msgstr "Organisation évoluée"
+
+#: dev_rapsody/applications/models/tComment.php:76
+msgid "Score"
+msgstr "Notation"
+
+#: dev_rapsody/applications/models/tComment.php:77
+msgid "Status of comment"
+msgstr "Statut du commentaire"
+
+#: dev_rapsody/applications/models/tComment.php:78
+msgid "Your comment"
+msgstr "Vos remarques"
+
+#: dev_rapsody/applications/models/tComment.php:81
+msgid "Comments and rating about organization"
+msgstr "Commentaires et évaluation d'organisation"
+
+#: dev_rapsody/applications/models/tComment.php:89
+msgid "Select an Organisation"
+msgstr "Sélectionner une organisation"
+
+#: dev_rapsody/applications/models/tComment.php:108
+msgid "Select a user"
+msgstr "Sélectionner un utilisateur"
+
+#: dev_rapsody/applications/models/tComment.php:145
+msgid "Select your own rate"
+msgstr "Sélectionner votre propre évaluation"
+
+#: dev_rapsody/applications/models/tComment.php:145
+msgid "Excellent"
+msgstr "Excellent"
+
+#: dev_rapsody/applications/models/tComment.php:145
+msgid "Good"
+msgstr "Bon"
+
+#: dev_rapsody/applications/models/tComment.php:145
+msgid "Medium"
+msgstr "Moyen"
+
+#: dev_rapsody/applications/models/tComment.php:145
+msgid "To create"
+msgstr "A créer"
+
+#: dev_rapsody/applications/models/tComment.php:197
+msgid "Status"
+msgstr "Statut"
+
+#: dev_rapsody/applications/models/tOrphaen.php:77
+msgid "Expert ref."
+msgstr "Réf. Expert"
+
+#: dev_rapsody/applications/models/tOrphaen.php:78
+msgid "Synonyms"
+msgstr "Synonymes"
+
+#: dev_rapsody/applications/models/tOrphaen.php:80
+msgid "Opha.net number"
+msgstr "Réf. Orpha.net"
+
+#: dev_rapsody/applications/models/tOrphaen.php:81
+msgid "ICD number"
+msgstr "Réf. I.C.D"
+
+#: dev_rapsody/applications/models/tOrphaen.php:82
+msgid "W.H.O number"
+msgstr "Réf. O.M.S"
+
+#: dev_rapsody/applications/models/tOrphaen.php:84
+msgid "Basic Orpha.net base Management"
+msgstr "Gestion simplifiée de la base Orpha.net"
+
+#: dev_rapsody/applications/models/tOrphaen.php:138
+#: dev_rapsody/applications/models/tOrphaen.php:157
+msgid "Orpha.net num."
+msgstr "Réf. Orpha.net"
+
+#: dev_rapsody/applications/models/tTalk.php:84
+msgid "Forums talk management"
+msgstr "Gestion des forums de discussion"
+
+#: dev_rapsody/applications/models/tTalk.php:107
+#: dev_rapsody/applications/models/tUsertForum.php:110
+msgid "Select a Forum"
+msgstr "Sélectionner un forum"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:59
+msgid "Message Subject"
+msgstr "Objet du message"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:60
+msgid "Group to notify"
+msgstr "Groupe à notifier"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:61
+msgid "Unique Recipient"
+msgstr "Destinataire unique"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:62
+msgid "Message Body"
+msgstr "Corps du message"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:64
+msgid "Mass mailing  list management"
+msgstr "Gestion des listes de mail d'envoi massif"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:71
+msgid "Select the group to notify"
+msgstr "Sélectionner les groupes à notifier"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:71
+msgid "To all repondants"
+msgstr "A tous les répondants"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:71
+msgid "To all experts"
+msgstr "A tous les experts"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:72
+msgid "To all correspondants"
+msgstr "A tout les correspondants"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:72
+msgid "To all organisations"
+msgstr "A toutes les organisations"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:72
+msgid "To all patients"
+msgstr "A tous les patients"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:73
+msgid "To recreative correspondants"
+msgstr "Aux correspondants des centres de loisirs "
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:73
+msgid "To respite correspondants"
+msgstr "Aux correspondants des centres de repos"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:73
+msgid "To call centers correspondants"
+msgstr "Aux correspondants des centres d'appels"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:74
+msgid "To myself for test"
+msgstr "A moi-même pour test"
+
+#: dev_rapsody/applications/models/tMailEnvoice.php:74
+msgid "Unique sending"
+msgstr "Expéditeur unique"
+
+#: dev_rapsody/applications/models/tGroup.php:63
+msgid "Group management"
+msgstr "Gérer les groupes"
+
+#: dev_rapsody/applications/models/tUsertForum.php:81
+msgid "Patient"
+msgstr "Patient"
+
+#: dev_rapsody/applications/models/tUsertForum.php:83
+msgid "Can read messages"
+msgstr "Peut lire un message"
+
+#: dev_rapsody/applications/models/tUsertForum.php:84
+msgid "Can contribute to messages"
+msgstr "Peut créer des contributions"
+
+#: dev_rapsody/applications/models/tUsertForum.php:85
+msgid "Can propose new threads"
+msgstr "Peut proposer un nouveau thème "
+
+#: dev_rapsody/applications/models/tUsertForum.php:86
+msgid "Date - [YYYY-MM-DD]"
+msgstr "DATE - [AAAA-MM-JJ]"
+
+#: dev_rapsody/applications/models/tUsertForum.php:87
+msgid "Posted messages"
+msgstr "Messages déposés"
+
+#: dev_rapsody/applications/models/tUsertForum.php:89
+msgid "Users to Forums Assignment Management "
+msgstr "Affectation des utilisateurs aux forums"
+
+#: dev_rapsody/applications/models/tUsertForum.php:97
+msgid "Select a User or a Moderator"
+msgstr "Sélectionner un utilisateur ou modérateur"
+
+#: dev_rapsody/applications/models/tUsertForum.php:173
+msgid "Read"
+msgstr "Lire"
+
+#: dev_rapsody/applications/models/tUsertForum.php:174
+msgid "Contribute"
+msgstr "Contribuer"
+
+#: dev_rapsody/applications/models/tUsertForum.php:175
+msgid "Create"
+msgstr "Créer"
+
+#: dev_rapsody/applications/models/tArticles.php:89
+msgid "Article Type"
+msgstr "Type d'articles"
+
+#: dev_rapsody/applications/models/tArticles.php:90
+msgid "Article Title"
+msgstr "Titre de l'article"
+
+#: dev_rapsody/applications/models/tArticles.php:92
+msgid "Main part"
+msgstr "Part principale"
+
+#: dev_rapsody/applications/models/tArticles.php:93
+msgid "Article Author ?"
+msgstr "Auteur de l'article ?"
+
+#: dev_rapsody/applications/models/tArticles.php:94
+msgid "Date publication"
+msgstr "Date de mise en ligne"
+
+#: dev_rapsody/applications/models/tArticles.php:95
+msgid "Date retrait"
+msgstr "Date retrait"
+
+#: dev_rapsody/applications/models/tArticles.php:99
+msgid "Article writing & production"
+msgstr "Préparation des articles"
+
+#: dev_rapsody/applications/models/tArticles.php:107
+msgid "Select a type"
+msgstr "Sélectionner un type"
+
+#: dev_rapsody/applications/models/tArticles.php:136
+msgid "Select an Author"
+msgstr "Sélectionner un auteur"
+
+#: dev_rapsody/applications/models/tArticles.php:158
+#: dev_rapsody/applications/models/tArticles.php:159
+msgid "UnPublished"
+msgstr "Non publié"
+
+#: dev_rapsody/applications/models/tArticles.php:158
+#: dev_rapsody/applications/models/tArticles.php:159
+msgid "Published"
+msgstr "Publié"
+
+#: dev_rapsody/applications/models/tArticles.php:250
+msgid "Author"
+msgstr "Auteur"
+
+#: dev_rapsody/applications/models/tRespiteCenter.php:114
+msgid "Informations on respite center"
+msgstr "Informations sur centre de repos"
+
+#: dev_rapsody/applications/models/tRequest.php:85
+msgid "Request report"
+msgstr "Compte rendu d'appel"
+
+#: dev_rapsody/applications/models/tRequest.php:86
+msgid "Answer report"
+msgstr "Compte rendu de réponse"
+
+#: dev_rapsody/applications/models/tRequest.php:87
+msgid "Rating"
+msgstr "Notation"
+
+#: dev_rapsody/applications/models/tRequest.php:88
+msgid "Source of contact"
+msgstr "Origine du contact"
+
+#: dev_rapsody/applications/models/tRequest.php:89
+msgid "Call object"
+msgstr "Appel d'objet"
+
+#: dev_rapsody/applications/models/tRequest.php:91
+msgid "Type of contact"
+msgstr "Type de contact"
+
+#: dev_rapsody/applications/models/tRequest.php:92
+msgid "Requirer category"
+msgstr "Catégorie de demandeurs"
+
+#: dev_rapsody/applications/models/tRequest.php:93
+msgid "Operator"
+msgstr "Opérateur"
+
+#: dev_rapsody/applications/models/tRequest.php:96
+msgid "Sibling"
+msgstr "Proches"
+
+#: dev_rapsody/applications/models/tRequest.php:100
+msgid "Request management "
+msgstr "Gérer les Appels"
+
+#: dev_rapsody/applications/models/tRequest.php:107
+msgid "Select a source"
+msgstr "Sélectionner une source"
+
+#: dev_rapsody/applications/models/tRequest.php:132
+msgid "Select a target"
+msgstr "Sélectionner l'objectif"
+
+#: dev_rapsody/applications/models/tRequest.php:166
+msgid "Select a patient"
+msgstr "Sélectionner un patient"
+
+#: dev_rapsody/applications/models/tRequest.php:184
+msgid "Select a Repondant"
+msgstr "Sélectionner un répondant"
+
+#: dev_rapsody/applications/models/tRequest.php:196
+msgid "Open"
+msgstr "Ouvert"
+
+#: dev_rapsody/applications/models/tRequest.php:196
+msgid "Close"
+msgstr "Clôturé"
+
+#: dev_rapsody/applications/models/tRequest.php:269
+msgid "Question"
+msgstr "Question"
+
+#: dev_rapsody/applications/models/tDocument.php:82
+msgid "Document Title"
+msgstr "Titre de documents"
+
+#: dev_rapsody/applications/models/tDocument.php:83
+msgid "Document Author ?"
+msgstr "Auteur du document ?"
+
+#: dev_rapsody/applications/models/tDocument.php:86
+msgid "Document File"
+msgstr "Fichier du document"
+
+#: dev_rapsody/applications/models/tDocument.php:89
+msgid "Access rights"
+msgstr "Droits d'accès"
+
+#: dev_rapsody/applications/models/tDocument.php:91
+msgid "Primary documents  management"
+msgstr "Gestion des documents primaires"
+
+#: dev_rapsody/applications/models/tListSelect.php:60
+msgid "Type of list"
+msgstr "Type de liste"
+
+#: dev_rapsody/applications/models/tListSelect.php:64
+msgid "Select list item management"
+msgstr "Sélectionner la liste de gestion des éléments"
+
+#: dev_rapsody/applications/models/tListSelect.php:79
+msgid "Select List Type"
+msgstr "Sélectionner la liste des types"
+
+#: dev_rapsody/applications/models/tListSelect.php:79
+msgid "User Type"
+msgstr "Type Utilisateur"
+
+#: dev_rapsody/applications/models/tListSelect.php:79
+msgid "Organization Type"
+msgstr "Type d'organisation"
+
+#: dev_rapsody/applications/models/tListSelect.php:80
+msgid "Articles Type"
+msgstr "Types d'articles"
+
+#: dev_rapsody/applications/models/tListSelect.php:80
+msgid "Contact goal"
+msgstr "Objectif du contact"
+
+#: dev_rapsody/applications/models/tListSelect.php:80
+msgid "Contact Type"
+msgstr "Type de contact"
+
+#: dev_rapsody/applications/models/tListSelect.php:81
+msgid "Inquirer category"
+msgstr "Catégorie de demandeur"
+
+#: dev_rapsody/applications/models/tListSelect.php:81
+msgid "Available activities"
+msgstr "Activités proposées"
+
+#: dev_rapsody/applications/models/tListSelect.php:81
+msgid "Mean time stays"
+msgstr "Durée moyenne des séjours"
+
+#: dev_rapsody/applications/models/tListSelect.php:82
+msgid "Available services"
+msgstr "Services proposés"
+
+#: dev_rapsody/applications/models/tListSelect.php:82
+msgid "Deseases Follow-up"
+msgstr "Maladies suivies "
+
+#: dev_rapsody/applications/models/tListSelect.php:83
+msgid "Costs breakdown"
+msgstr "Structure des coûts"
+
+#: dev_rapsody/applications/models/tListSelect.php:83
+msgid "Insurance packages"
+msgstr "Prise en charge d'assurance "
+
+#: dev_rapsody/applications/models/tListSelect.php:83
+msgid "Contact Sources"
+msgstr "Origine des contacts"
+
+#: dev_rapsody/applications/models/tListSelect.php:84
+msgid "Availables cares"
+msgstr "Soins proposés"
+
+#: dev_rapsody/applications/models/tListSelect.php:84
+msgid "Group age"
+msgstr "Groupe d'âge"
+
+#: dev_rapsody/applications/models/tMedia.php:82
+msgid "Media Name"
+msgstr "Nom du média"
+
+#: dev_rapsody/applications/models/tMedia.php:83
+msgid "Media Owner"
+msgstr "Propriétaire du média"
+
+#: dev_rapsody/applications/models/tMedia.php:85
+msgid "Media File"
+msgstr "Fichier du média"
+
+#: dev_rapsody/applications/models/tMedia.php:89
+msgid "Medias  management"
+msgstr "Gérer les médias"
+
+#: dev_rapsody/applications/models/tMedia.php:154
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: dev_rapsody/applications/models/tRole.php:61
+#: dev_rapsody/applications/models/tRole.php:106
+msgid "Entitle"
+msgstr "Dénomination"
+
+#: dev_rapsody/applications/models/tRole.php:64
+msgid "Roles/Permissions management"
+msgstr "Gérer Rôles/Permissions"
+
+#: dev_rapsody/applications/controllers/MailController.php:98
+#: dev_rapsody/applications/controllers/AuthController.php:89
+#: dev_rapsody/applications/controllers/MngtbController.php:182
+#: dev_rapsody/applications/controllers/MngtbController.php:214
+msgid "The Rapsody database administration team"
+msgstr "L'équipe d'administration de la base de données Rapsody"
+
+#: dev_rapsody/applications/controllers/MailController.php:108
+msgid "The message has been send to all Repondants"
+msgstr "Un message a été envoyé à tous les répondants"
+
+#: dev_rapsody/applications/controllers/MailController.php:113
+msgid "The message has been send to all Experts"
+msgstr "Un message a été envoyé à tous les experts"
+
+#: dev_rapsody/applications/controllers/MailController.php:117
+msgid "The message has been send to all Correspondants"
+msgstr "Votre message a été envoyé à tous les correspondants"
+
+#: dev_rapsody/applications/controllers/MailController.php:121
+msgid "The message has been send to all Organizations"
+msgstr "Un message a été envoyé à toutes les organisations"
+
+#: dev_rapsody/applications/controllers/MailController.php:124
+msgid "The message has been send to all Patients"
+msgstr "Un message a été envoyé à tous les patients"
+
+#: dev_rapsody/applications/controllers/MailController.php:129
+msgid "The message has been send to all Recreation correspondants"
+msgstr "Votre message a été envoyé à tous les correspondants des centres de loisirs"
+
+#: dev_rapsody/applications/controllers/MailController.php:136
+msgid "The message has been send to all Respite correspondants"
+msgstr "Votre message a été envoyé à tous les correspondants des centres de repos"
+
+#: dev_rapsody/applications/controllers/MailController.php:142
+msgid "The message has been send to all Call centers correspondants"
+msgstr "Votre message a été envoyé à tous les correspondants des centres d'appel"
+
+#: dev_rapsody/applications/controllers/MailController.php:147
+msgid "The message has been send to yourself for test"
+msgstr "Votre message vous a été adressé pour test"
+
+#: dev_rapsody/applications/controllers/MailController.php:150
+msgid "The message has been send"
+msgstr "Le message a été envoyé "
+
+#: dev_rapsody/applications/controllers/MailController.php:165
+#: dev_rapsody/applications/controllers/MailController.php:175
+#: dev_rapsody/applications/controllers/MngtbController.php:188
+#: dev_rapsody/applications/controllers/MngtbController.php:227
+#: dev_rapsody/applications/controllers/MngtbController.php:241
+msgid "Dear"
+msgstr "Cher (Chère)"
+
+#: dev_rapsody/applications/controllers/MailController.php:167
+#: dev_rapsody/applications/controllers/MailController.php:177
+#: dev_rapsody/applications/controllers/MngtbController.php:190
+#: dev_rapsody/applications/controllers/MngtbController.php:229
+#: dev_rapsody/applications/controllers/MngtbController.php:243
+msgid "RapsodyOnline"
+msgstr "RapsodyOnline"
+
+#: dev_rapsody/applications/controllers/SearchController.php:155
+msgid "KNOWLEDGE BASE"
+msgstr "BASE DE CONNAISSANCES"
+
+#: dev_rapsody/applications/controllers/SearchController.php:155
+msgid "CALL & REQUEST"
+msgstr "APPELS et DEMANDES"
+
+#: dev_rapsody/applications/controllers/SearchController.php:155
+msgid "W.H.O DATABASE"
+msgstr "BASE DE DONNEES O.M.S"
+
+#: dev_rapsody/applications/controllers/SearchController.php:155
+msgid "ORPHA.NET DATABASE"
+msgstr "BASE DE DONNEES ORPHA.NET"
+
+#: dev_rapsody/applications/controllers/SearchController.php:218
+msgid "failing message the first word can't be a logical expression"
+msgstr "message d'erreur, le premier mot ne peut être une expression logique"
+
+#: dev_rapsody/applications/controllers/SearchController.php:245
+msgid "No result for your search"
+msgstr "Aucun résultat pour votre recherche"
+
+#: dev_rapsody/applications/controllers/AuthController.php:85
+msgid "Hello "
+msgstr "Bonjour"
+
+#: dev_rapsody/applications/controllers/AuthController.php:86
+msgid "Somebody, maybe yourself asks a modification of your data on the behalf of your email adress : your username"
+msgstr "Quelqu'un, peut-être vous même, a demandé une modification en se référant à votre adresse de messagerie : votre nom d'utilisateur"
+
+#: dev_rapsody/applications/controllers/AuthController.php:87
+msgid "and your password"
+msgstr "et votre mot de passe"
+
+#: dev_rapsody/applications/controllers/AuthController.php:88
+msgid "There has been a change since your last login. "
+msgstr "Il y a eu une modification depuis votre dernière connexion."
+
+#: dev_rapsody/applications/controllers/AuthController.php:91
+msgid "Notification from RapsodyOnline"
+msgstr "Notification depuis RapsodyOnline"
+
+#: dev_rapsody/applications/controllers/AuthController.php:93
+msgid "Your data From Rapsody"
+msgstr "Vos données dans Rapsody"
+
+#: dev_rapsody/applications/controllers/AuthController.php:95
+msgid "Check your mailbox, please."
+msgstr "Veuillez vérifier votre courriel."
+
+#: dev_rapsody/applications/controllers/AuthController.php:97
+msgid "No such address please recheck."
+msgstr "Adresse inexistante, veuillez vérifier"
+
+#: dev_rapsody/applications/controllers/AuthController.php:100
+msgid "Supply a mail address please."
+msgstr "Veuillez donner une adresse de courriel"
+
+#: dev_rapsody/applications/controllers/AuthController.php:107
+#: dev_rapsody/applications/controllers/AuthController.php:175
+msgid " Please complete your login details."
+msgstr "Veuillez fournir vos données d'identification"
+
+#: dev_rapsody/applications/controllers/AuthController.php:151
+#: dev_rapsody/applications/controllers/AuthController.php:216
+msgid "Login failed."
+msgstr "Echec de l'authentification"
+
+#: dev_rapsody/applications/controllers/ErrorController.php:23
+msgid "No items in this category"
+msgstr "Pas d'éléments dans cette catégorie"
+
+#: dev_rapsody/applications/controllers/ErrorController.php:24
+msgid "It seems there no available item for you. So if you think it's an error send a request to the website administrator or to your contact inside Eurordis"
+msgstr "Il semblerait qu'il n'y ait pas d'élément pour vous. Si vous pensez que c'est une erreur, adressez une requête à l'administrateur ou à votre contact au sein d'Eurordis"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:133
+#: dev_rapsody/applications/controllers/IndexController.php:414
+#: dev_rapsody/applications/controllers/IndexController.php:529
+msgid "Call centre list"
+msgstr "Liste des centres d'appel"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:136
+#: dev_rapsody/applications/controllers/IndexController.php:417
+#: dev_rapsody/applications/controllers/IndexController.php:532
+msgid "Recreation activities list"
+msgstr "Liste des centres de loisirs"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:139
+#: dev_rapsody/applications/controllers/IndexController.php:420
+#: dev_rapsody/applications/controllers/IndexController.php:535
+msgid "Respite services list"
+msgstr "Liste des centres de repits"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:185
+msgid "For moderation"
+msgstr "Pour modération"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:186
+msgid "The following message is waiting for publication"
+msgstr "Le message suivant est en attente pour publication"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:188
+#: dev_rapsody/applications/controllers/MngtbController.php:191
+msgid "Administrator"
+msgstr "Administrateur"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:219
+msgid "Accepted comment"
+msgstr "Commentaire accepté"
+
+#: dev_rapsody/applications/controllers/MngtbController.php:220
+msgid "Your comment has been moderated and accepted as follow"
+msgstr "Votre commentaire a été modéré et accepté comme suit "
+
+#: dev_rapsody/applications/controllers/MngtbController.php:235
+msgid "The following comment about your organization has been moderated and accepted as follow"
+msgstr "Le commentaire suivant, à propos de votre organisation, a été modéré et accepté comme suit "
+
+#: dev_rapsody/applications/controllers/IndexController.php:540
+msgid "Criteria search based"
+msgstr "Recherche basée sur les critères"
+
+#: dev_rapsody/applications/controllers/IndexController.php:642
+msgid "Knownledge record search"
+msgstr "Recherche d'enregistrement en bas de connaissances"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:628
+msgid "Please select a country"
+msgstr "Choisir un pays"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:629
+msgid "None"
+msgstr "Aucun"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:630
+msgid "Afganistan"
+msgstr "Afghan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:631
+msgid "Albania"
+msgstr "Albanie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:632
+msgid "Algeria"
+msgstr "Algérie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:633
+msgid "American Samoa"
+msgstr "Samoa USA"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:634
+msgid "Andorra"
+msgstr "Andorre"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:635
+msgid "Angola"
+msgstr "Angola"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:636
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:637
+msgid "Antarctica"
+msgstr "Antartique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:638
+msgid "Antigua and Barbuda"
+msgstr "Antilles et Barbades"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:639
+msgid "Argentina"
+msgstr "Argentine"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:640
+msgid "Armenia"
+msgstr "Arménie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:641
+msgid "Aruba"
+msgstr "Antilles Néerlandaises"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:642
+msgid "Australia"
+msgstr "Australie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:643
+msgid "Austria"
+msgstr "Autriche"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:644
+msgid "Azerbaijan"
+msgstr "Azebaïdjan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:645
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:646
+msgid "Bahrain"
+msgstr "Bahraïn"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:647
+msgid "Bangladesh"
+msgstr "Bengladesh"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:648
+msgid "Barbados"
+msgstr "Barbades (Les)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:649
+msgid "Belarus"
+msgstr "Biélorussie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:650
+msgid "Belgium"
+msgstr "Belgique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:651
+msgid "Belize"
+msgstr "Bélize"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:652
+msgid "Benin"
+msgstr "Bénin"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:653
+msgid "Bermuda"
+msgstr "Bermudes (Les)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:654
+msgid "Bhutan"
+msgstr "Bhoutan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:655
+msgid "Bolivia"
+msgstr "Bolivie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:656
+msgid "Bosnia and Herzegowina"
+msgstr "Bosnie-Herzégovine"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:657
+msgid "Botswana"
+msgstr "Botswana"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:658
+msgid "Bouvet Island"
+msgstr "Bouvet (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:659
+msgid "Brazil"
+msgstr "Brésil"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:660
+msgid "British Indian Ocean Territory"
+msgstr "Océan indien britannique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:661
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:662
+msgid "Bulgaria"
+msgstr "bulgarie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:663
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:664
+msgid "Burundi"
+msgstr "Burundi"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:665
+msgid "Cambodia"
+msgstr "Cambodge"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:666
+msgid "Cameroon"
+msgstr "Cameroun"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:667
+msgid "Canada"
+msgstr "Canada"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:668
+msgid "Cape Verde"
+msgstr "Cap Vert (Ile du)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:669
+msgid "Cayman Islands"
+msgstr "Caïman (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:670
+msgid "Central African Republic"
+msgstr "République Centre Africaine"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:671
+msgid "Chad"
+msgstr "Tchad"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:672
+msgid "Chile"
+msgstr "Chili"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:673
+msgid "China"
+msgstr "Chine"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:674
+msgid "Christmas Island"
+msgstr "Iles Christmas"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:675
+msgid "Cocos (Keeling) Islands"
+msgstr "Keeling (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:676
+msgid "Colombia"
+msgstr "Colombie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:677
+msgid "Comoros"
+msgstr "Commorres (Les)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:678
+msgid "Congo"
+msgstr "Congo"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:679
+msgid "Congo, the Democratic Republic of the"
+msgstr "Congo (République démocratique)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:680
+msgid "Cook Islands"
+msgstr "Cook (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:681
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:682
+msgid "Cote d'Ivoire"
+msgstr "Cote d'Ivoire"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:683
+msgid "Croatia (Hrvatska)"
+msgstr "Croatie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:684
+msgid "Cuba"
+msgstr "Cuba"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:685
+msgid "Cyprus"
+msgstr "Chypre"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:686
+msgid "Czech Republic"
+msgstr "Tchéquie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:687
+msgid "Denmark"
+msgstr "Danemark"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:688
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:689
+msgid "Dominica"
+msgstr "Dominique (Ile)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:690
+msgid "Dominican Republic"
+msgstr "Saint Domingue"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:691
+msgid "East Timor"
+msgstr "Timor Oriental"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:692
+msgid "Ecuador"
+msgstr "Equateur"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:693
+msgid "Egypt"
+msgstr "Egypte"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:694
+msgid "El Salvador"
+msgstr "Salvador"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:695
+msgid "Equatorial Guinea"
+msgstr "Guinée Bissau"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:696
+msgid "Eritrea"
+msgstr "Erhytrée"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:697
+msgid "Estonia"
+msgstr "Estonie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:698
+msgid "Ethiopia"
+msgstr "Ethiopie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:699
+msgid "Falkland Islands (Malvinas)"
+msgstr "Malouines (Les)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:700
+msgid "Faroe Islands"
+msgstr "Faroë"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:701
+msgid "Fiji"
+msgstr "Fidji"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:702
+msgid "Finland"
+msgstr "Finlande"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:703
+msgid "France"
+msgstr "France"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:704
+msgid "France, Metropolitan"
+msgstr "France Métroploitaine"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:705
+msgid "French Guiana"
+msgstr "Guyannes Françaises"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:706
+msgid "French Polynesia"
+msgstr "France-Polynésie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:707
+msgid "French Southern Territories"
+msgstr "France Territoires australes"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:708
+msgid "Gabon"
+msgstr "Gabon"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:709
+msgid "Gambia"
+msgstr "Gambie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:710
+msgid "Georgia"
+msgstr "Géorgie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:711
+msgid "Germany"
+msgstr "Allemagne"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:712
+msgid "Ghana"
+msgstr "Ghana"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:713
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:714
+msgid "Greece"
+msgstr "Grèce"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:715
+msgid "Greenland"
+msgstr "Groenland"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:716
+msgid "Grenada"
+msgstr "Grenades (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:717
+msgid "Guadeloupe"
+msgstr "France Guadeloupe"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:718
+msgid "Guam"
+msgstr "Guam (Ile de)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:719
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:720
+msgid "Guinea"
+msgstr "Guinée"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:721
+msgid "Guinea-Bissau"
+msgstr "Guinéa-Bissau"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:722
+msgid "Guyana"
+msgstr "Guyanne"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:723
+msgid "Haiti"
+msgstr "Haïti"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:724
+msgid "Heard and Mc Donald Islands"
+msgstr "Mc Donald (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:725
+msgid "Holy See (Vatican City State)"
+msgstr "Vatican"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:726
+msgid "Honduras"
+msgstr "Honduras"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:727
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:728
+msgid "Hungary"
+msgstr "Hongrie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:729
+msgid "Iceland"
+msgstr "Islande"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:730
+msgid "India"
+msgstr "Inde"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:731
+msgid "Indonesia"
+msgstr "Indonésie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:732
+msgid "Iran (Islamic Republic of)"
+msgstr "Iran"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:733
+msgid "Iraq"
+msgstr "Irak"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:734
+msgid "Ireland"
+msgstr "Irelande"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:735
+msgid "Israel"
+msgstr "Israel"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:736
+msgid "Italy"
+msgstr "Italie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:737
+msgid "Jamaica"
+msgstr "Jamaïque"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:738
+msgid "Japan"
+msgstr "Japon"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:739
+msgid "Jordan"
+msgstr "JOrdanie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:740
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:741
+msgid "Kenya"
+msgstr "Kenya"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:742
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:743
+msgid "Korea, Democratic People's Republic of"
+msgstr "Corée du Nord"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:744
+msgid "Korea, Republic of"
+msgstr "Corée du sud"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:745
+msgid "Kuwait"
+msgstr "Koweït"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:746
+msgid "Kyrgyzstan"
+msgstr "Kirghistan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:747
+msgid "Lao People's Democratic Republic"
+msgstr "Laos"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:748
+msgid "Latvia"
+msgstr "Lettonie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:749
+msgid "Lebanon"
+msgstr "Liban"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:750
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:751
+msgid "Liberia"
+msgstr "Liberia"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:752
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libye"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:753
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:754
+msgid "Lithuania"
+msgstr "Lituanie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:755
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:756
+msgid "Macau"
+msgstr "Macaü"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:757
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr "Macédoine"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:758
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:759
+msgid "Malawi"
+msgstr "Malawi"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:760
+msgid "Malaysia"
+msgstr "Malaisie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:761
+msgid "Maldives"
+msgstr "Maldives"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:762
+msgid "Mali"
+msgstr "Mali"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:763
+msgid "Malta"
+msgstr "Malte"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:764
+msgid "Marshall Islands"
+msgstr "Marshall (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:765
+msgid "Martinique"
+msgstr "France Martinique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:766
+msgid "Mauritania"
+msgstr "Mauritanie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:767
+msgid "Mauritius"
+msgstr "Maurice"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:768
+msgid "Mayotte"
+msgstr "mayotte"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:769
+msgid "Mexico"
+msgstr "Mexique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:770
+msgid "Micronesia, Federated States of"
+msgstr "Micronésie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:771
+msgid "Moldova, Republic of"
+msgstr "Moldavie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:772
+msgid "Monaco"
+msgstr "Monaco"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:773
+msgid "Mongolia"
+msgstr "Mongolie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:774
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:775
+msgid "Morocco"
+msgstr "Maroc"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:776
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:777
+msgid "Myanmar"
+msgstr "Myanmar (Birmanie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:778
+msgid "Namibia"
+msgstr "Nanibie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:779
+msgid "Nauru"
+msgstr "Nauru"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:780
+msgid "Nepal"
+msgstr "Népal"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:781
+msgid "Netherlands"
+msgstr "Pays Bas"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:782
+msgid "Netherlands Antilles"
+msgstr "Antilles Néerlandaise"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:783
+msgid "New Caledonia"
+msgstr "France Nouvelle Calédonie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:784
+msgid "New Zealand"
+msgstr "Nouvelle Zélande"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:785
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:786
+msgid "Niger"
+msgstr "Niger"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:787
+msgid "Nigeria"
+msgstr "Nigéria"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:788
+msgid "Niue"
+msgstr "Niue (Nelle Zélande)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:789
+msgid "Norfolk Island"
+msgstr "Iles Norfolk"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:790
+msgid "Northern Mariana Islands"
+msgstr "Marianne du Nord (Ile)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:791
+msgid "Norway"
+msgstr "Norvège"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:792
+msgid "Oman"
+msgstr "Oman"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:793
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:794
+msgid "Palau"
+msgstr "Palau"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:795
+msgid "Panama"
+msgstr "Panama"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:796
+msgid "Papua New Guinea"
+msgstr "Papaousie Nouvelle Ginée"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:797
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:798
+msgid "Peru"
+msgstr "Pérou"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:799
+msgid "Philippines"
+msgstr "Philippines"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:800
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:801
+msgid "Poland"
+msgstr "Pologne"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:802
+msgid "Portugal"
+msgstr "Portugal"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:803
+msgid "Puerto Rico"
+msgstr "Porto Rico"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:804
+msgid "Qatar"
+msgstr "Quatar"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:805
+msgid "Reunion"
+msgstr "France Réunion (Ile)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:806
+msgid "Romania"
+msgstr "Roumanie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:807
+msgid "Russian Federation"
+msgstr "Russie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:808
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:809
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:810
+msgid "Saint LUCIA"
+msgstr "Sainte LUCIA"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:811
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent et Grenades"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:812
+msgid "Samoa"
+msgstr "Samoa"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:813
+msgid "San Marino"
+msgstr "San Marin"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:814
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome et Principe"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:815
+msgid "Saudi Arabia"
+msgstr "Arabie Saoudite"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:816
+msgid "Senegal"
+msgstr "Sénégal"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:817
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:818
+msgid "Sierra Leone"
+msgstr "Sierra Léone"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:819
+msgid "Singapore"
+msgstr "Singapour"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:820
+msgid "Slovakia (Slovak Republic)"
+msgstr "Slovaquie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:821
+msgid "Slovenia"
+msgstr "Slovenie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:822
+msgid "Solomon Islands"
+msgstr "Salomon (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:823
+msgid "Somalia"
+msgstr "Somalie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:824
+msgid "South Africa"
+msgstr "Afrique du sud"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:825
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Géorgie du Sud et Sandwich"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:826
+msgid "Spain"
+msgstr "Espagne"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:827
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:828
+msgid "St. Helena"
+msgstr "Sainte Hélène"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:829
+msgid "St. Pierre and Miquelon"
+msgstr "St. Pierre and Miquelon"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:830
+msgid "Sudan"
+msgstr "Soudan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:831
+msgid "Suriname"
+msgstr "Surinam"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:832
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Svalbard and Jan Mayen Islands"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:833
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:834
+msgid "Sweden"
+msgstr "Suède"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:835
+msgid "Switzerland"
+msgstr "Confédération Helvétique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:836
+msgid "Syrian Arab Republic"
+msgstr "Syrie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:837
+msgid "Taiwan, Province of China"
+msgstr "Taïwan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:838
+msgid "Tajikistan"
+msgstr "Tadjikistan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:839
+msgid "Tanzania, United Republic of"
+msgstr "Tanzanie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:840
+msgid "Thailand"
+msgstr "Thaïlande"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:841
+msgid "Togo"
+msgstr "Togo"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:842
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:843
+msgid "Tonga"
+msgstr "Tonga"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:844
+msgid "Trinidad and Tobago"
+msgstr "Trinidad et Tabgo"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:845
+msgid "Tunisia"
+msgstr "Tunisie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:846
+msgid "Turkey"
+msgstr "Turquie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:847
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:848
+msgid "Turks and Caicos Islands"
+msgstr "Turkset Caicos (Ile)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:849
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:850
+msgid "Uganda"
+msgstr "Ouganda"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:851
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:852
+msgid "United Arab Emirates"
+msgstr "République Arabe Unie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:853
+msgid "United Kingdom"
+msgstr "Royaume uni"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:854
+msgid "United States"
+msgstr "Etats Unis"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:855
+msgid "United States Minor Outlying Islands"
+msgstr "Etats Unis Continent"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:856
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:857
+msgid "Uzbekistan"
+msgstr "Ouzbekistan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:858
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:859
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:860
+msgid "Viet Nam"
+msgstr "VietNam"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:861
+msgid "Virgin Islands (British)"
+msgstr "Vierges Britanniques (Iles)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:862
+msgid "Virgin Islands (U.S.)"
+msgstr "Iles Vierges (Américaine)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:863
+msgid "Wallis and Futuna Islands"
+msgstr "Wallis et Futuna"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:864
+msgid "Western Sahara"
+msgstr "Sahara Occidental"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:865
+msgid "Yemen"
+msgstr "Yeman"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:866
+msgid "Yugoslavia"
+msgstr "Serbie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:867
+msgid "Zambia"
+msgstr "Zambie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:868
+msgid "Zimbabwe"
+msgstr "Zimbawé"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:887
+msgid "Afrikaans"
+msgstr "Afrikaner"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:888
+msgid "Albanian"
+msgstr "Albanais"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:889
+msgid "Arabic (Algeria)"
+msgstr "Arabe (Algérie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:890
+msgid "Arabic (Bahrain)"
+msgstr "Arabe (Barhain)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:891
+msgid "Arabic (Egypt)"
+msgstr "Arabz (Egypte)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:892
+msgid "Arabic (Iraq)"
+msgstr "Arabe (Irak)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:893
+msgid "Arabic (Jordan)"
+msgstr "Arabe (Jordanie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:894
+msgid "Arabic (Kuwait)"
+msgstr "Arabe (Koweit)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:895
+msgid "Arabic (Lebanon)"
+msgstr "Arabe (Lban)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:896
+msgid "Arabic (libya)"
+msgstr "Arabe (libye)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:897
+msgid "Arabic (Morocco)"
+msgstr "Arabe (Maroc)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:898
+msgid "Arabic (Oman)"
+msgstr "Arabe (Oman)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:899
+msgid "Arabic (Qatar)"
+msgstr "Arabe (Qatar)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:900
+msgid "Arabic (Saudi Arabia)"
+msgstr "Arabe (Arabie Séoudite))"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:901
+msgid "Arabic (Syria)"
+msgstr "Arabe (Syrie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:902
+msgid "Arabic (Tunisia)"
+msgstr "Arabe (Tunisie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:903
+msgid "Arabic (U.A.E.)"
+msgstr "Arabe (Emirat.)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:904
+msgid "Arabic (Yemen)"
+msgstr "Arabe (Yemen)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:905
+msgid "Arabic"
+msgstr "Arabe"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:906
+msgid "Armenian"
+msgstr "Arménien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:907
+msgid "Assamese"
+msgstr "Assamais (Inde)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:908
+msgid "Azeri"
+msgstr "Azeri"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:909
+msgid "Basque"
+msgstr "Basque"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:910
+msgid "Belarusian"
+msgstr "Bélarusse"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:911
+msgid "Bengali"
+msgstr "Bengali"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:912
+msgid "Bulgarian"
+msgstr "Bulgare"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:913
+msgid "Catalan"
+msgstr "Catalan"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:914
+msgid "Chinese (China)"
+msgstr "Chinois (Chine)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:915
+msgid "Chinese (Hong Kong SAR)"
+msgstr "Chinois (Hong Kong )"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:916
+msgid "Chinese (Macau SAR)"
+msgstr "Chinois (Macau)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:917
+msgid "Chinese (Singapore)"
+msgstr "Chinois (Singapore)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:918
+msgid "Chinese (Taiwan)"
+msgstr "Chinese (Taiwan)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:919
+msgid "Chinese"
+msgstr "Chinois"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:920
+msgid "Croatian"
+msgstr "Croatie"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:921
+msgid "Czech"
+msgstr "Tchèque"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:922
+msgid "Danish"
+msgstr "Danois"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:923
+msgid "Divehi"
+msgstr "Maldivien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:924
+msgid "Dutch (Belgium)"
+msgstr "Néerlandais (Belgique)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:925
+msgid "Dutch (Netherlands)"
+msgstr "Néerlandais (Pays Bas)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:926
+msgid "English (Australia)"
+msgstr "Anglais (Australie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:927
+msgid "English (Belize)"
+msgstr "Anglais (Belize)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:928
+msgid "English (Canada)"
+msgstr "Anglais (Canada)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:929
+msgid "English (Ireland)"
+msgstr "Anglais (Irlande)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:930
+msgid "English (Jamaica)"
+msgstr "Anglais (Jamaïque)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:931
+msgid "English (New Zealand)"
+msgstr "Anglais (Nouvelle Zélande)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:932
+msgid "English (Philippines)"
+msgstr "Anglais (Philippines)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:933
+msgid "English (South Africa)"
+msgstr "Anglais (Afrique du Sud)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:934
+msgid "English (Trinidad)"
+msgstr "Anglais (Trinidad)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:935
+msgid "English (United Kingdom)"
+msgstr "Anglais (Royaume Uni)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:936
+#: data/papweb/lib_zdf/Zend/Db/Table.php:939
+msgid "English (United States)"
+msgstr "Anglais (Etats Unis)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:937
+msgid "English (Zimbabwe)"
+msgstr "Anglais (Zimbawé)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:938
+msgid "English"
+msgstr "Anglais"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:940
+msgid "Estonian"
+msgstr "Estonien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:941
+msgid "Faeroese"
+msgstr "Faerose"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:942
+msgid "Farsi"
+msgstr "Farsi"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:943
+msgid "Finnish"
+msgstr "Finnois"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:944
+msgid "French (Belgium)"
+msgstr "Français (Belgique)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:945
+msgid "French (Canada)"
+msgstr "Français (canada)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:946
+msgid "French (Luxembourg)"
+msgstr "Français (Luxembourg)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:947
+msgid "French (Monaco)"
+msgstr "Français (Monaco)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:948
+msgid "French (Switzerland)"
+msgstr "Français (Confed. Helvétique)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:949
+msgid "French (France)"
+msgstr "Français (France)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:950
+msgid "FYRO Macedonian"
+msgstr "Macédonien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:951
+msgid "Gaelic"
+msgstr "Gaëlique"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:952
+msgid "Georgian"
+msgstr "Georgien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:953
+msgid "German (Austria)"
+msgstr "Allemand (Autriche)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:954
+msgid "German (Liechtenstein)"
+msgstr "Allemand (Liechtenstein)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:955
+msgid "German (Luxembourg)"
+msgstr "Allemand (Luxembourg)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:956
+msgid "German (Switzerland)"
+msgstr "Allemand (Conf. Helvétique)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:957
+msgid "German (Germany)"
+msgstr "Allemand (Allemagne)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:958
+msgid "Greek"
+msgstr "Grèce"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:959
+msgid "Gujarati"
+msgstr "Gujari"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:960
+msgid "Hebrew"
+msgstr "Hébreu"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:961
+msgid "Hindi"
+msgstr "Indi"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:962
+msgid "Hungarian"
+msgstr "Magyar"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:963
+msgid "Icelandic"
+msgstr "Islandais"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:964
+msgid "Indonesian"
+msgstr "Indonésien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:965
+msgid "Italian (Switzerland)"
+msgstr "Italien (Suisse)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:966
+msgid "Italian (Italy)"
+msgstr "Italien (Italie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:967
+msgid "Japanese"
+msgstr "Japonais"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:968
+msgid "Kannada"
+msgstr "Kanna"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:969
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:970
+msgid "Konkani"
+msgstr "Konkani"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:971
+msgid "Korean"
+msgstr "Coréen"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:972
+msgid "Kyrgyz"
+msgstr "Kirghize"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:973
+msgid "Latvian"
+msgstr "Lituanien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:974
+msgid "Lithuanian"
+msgstr "Lituanien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:975
+msgid "Malay"
+msgstr "Malais"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:976
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:977
+msgid "Maltese"
+msgstr "Maltais"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:978
+msgid "Marathi"
+msgstr "Mahratti (Indes)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:979
+msgid "Mongolian (Cyrillic)"
+msgstr "Mongolien (Cyrillique)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:980
+msgid "Nepali (India)"
+msgstr "Nepali (Inde)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:981
+#: data/papweb/lib_zdf/Zend/Db/Table.php:983
+msgid "Norwegian (Bokmal)"
+msgstr "Norvégien (Bokmal)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:982
+msgid "Norwegian (Nynorsk)"
+msgstr "Norvégien (Nynorsk)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:984
+msgid "Oriya"
+msgstr "Oriya"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:985
+msgid "Polish"
+msgstr "Polonais"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:986
+msgid "Portuguese (Brazil)"
+msgstr "Portuguais (Brésil)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:987
+msgid "Portuguese (Portugal)"
+msgstr "Portuguais (Portugal)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:988
+msgid "Punjabi"
+msgstr "Penjabi"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:989
+msgid "Rhaeto-Romanic"
+msgstr "Rhétien Roman"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:990
+msgid "Romanian (Moldova)"
+msgstr "Roumain (Moldavie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:991
+msgid "Romanian"
+msgstr "Roumain"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:992
+msgid "Russian (Moldova)"
+msgstr "Russe (Moldavie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:993
+msgid "Russian"
+msgstr "Russe"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:994
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:995
+msgid "Serbian"
+msgstr "Serbe"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:996
+msgid "Slovak"
+msgstr "Slovaque"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:997
+msgid "Slovenian"
+msgstr "Slovène"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:998
+msgid "Sorbian"
+msgstr "Sorbien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:999
+msgid "Spanish (Argentina)"
+msgstr "Espagnol (Argentine)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1000
+msgid "Spanish (Bolivia)"
+msgstr "Espagnol (Bolivie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1001
+msgid "Spanish (Chile)"
+msgstr "Espagnol (Chili)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1002
+msgid "Spanish (Colombia)"
+msgstr "Espagnol (Colombie)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1003
+msgid "Spanish (Costa Rica)"
+msgstr "Espagnol (Costa Rica)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1004
+msgid "Spanish (Dominican Republic)"
+msgstr "Espagnol (Saint Domingue)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1005
+msgid "Spanish (Ecuador)"
+msgstr "Espagnol (Equateur)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1006
+msgid "Spanish (El Salvador)"
+msgstr "Espagnol (Salvador)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1007
+msgid "Spanish (Guatemala)"
+msgstr "Espagnol (Guatemala)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1008
+msgid "Spanish (Honduras)"
+msgstr "Espagnol (Honduras)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1009
+msgid "Spanish (Mexico)"
+msgstr "Espagnol (Mexique)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1010
+msgid "Spanish (Nicaragua)"
+msgstr "Espagnol Nicaragua)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1011
+msgid "Spanish (Panama)"
+msgstr "Espagnol (Panama)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1012
+msgid "Spanish (Paraguay)"
+msgstr "Espagnol (Paraguay)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1013
+msgid "Spanish (Peru)"
+msgstr "Espagnol (Pérou)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1014
+msgid "Spanish (Puerto Rico)"
+msgstr "Espagnol (Porto Rico)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1015
+msgid "Spanish (United States)"
+msgstr "Espagnol (U.S.A)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1016
+msgid "Spanish (Uruguay)"
+msgstr "Espagnol (Uruguay)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1017
+msgid "Spanish (Venezuela)"
+msgstr "Espagnol (Venezuela)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1018
+msgid "Spanish (Traditional Sort)"
+msgstr "Espagnol (Traditionnel)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1019
+msgid "Sutu"
+msgstr "Sutu"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1020
+msgid "Swahili"
+msgstr "Swahili"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1021
+msgid "Swedish (Finland)"
+msgstr "Suédois (Finlande)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1022
+msgid "Swedish"
+msgstr "Suédois"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1023
+msgid "Syriac"
+msgstr "Syriaque (Araméen)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1024
+msgid "Tamil"
+msgstr "Tamil"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1025
+msgid "Tatar"
+msgstr "Tatar"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1026
+msgid "Telugu"
+msgstr "Télugou"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1027
+msgid "Thai"
+msgstr "Thaï"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1028
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1029
+msgid "Tswana"
+msgstr "VTswana"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1030
+msgid "Turkish"
+msgstr "Turque"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1031
+msgid "Ukrainian"
+msgstr "Ukrainien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1032
+msgid "Urdu"
+msgstr "Urdu"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1033
+msgid "Uzbek"
+msgstr "Ouzbèque"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1034
+msgid "Vietnamese"
+msgstr "Vietnamien"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1035
+msgid "Xhosa"
+msgstr "Xhosa (Bantou)"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1036
+msgid "Yiddish"
+msgstr "Yiddish"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1037
+msgid "Zulu"
+msgstr "Zoulou"
+
+#: data/papweb/lib_zdf/Zend/Db/Table.php:1086
+msgid "select a language"
+msgstr "Sélectionner une langue"
+
+#~ msgid "Leisure center list"
+#~ msgstr "Liste des centres de loisirs "
+#~ msgid "Respite center list"
+#~ msgstr "Liste des centres de repos"
+#~ msgid "Manage respite center information"
+#~ msgstr "Gestion des informations des centres de répit"
+#~ msgid "To give up"
+#~ msgstr "Abandonner"
+#~ msgid "Mean duration stay"
+#~ msgstr "Durée moyenne du séjour"
+#~ msgid "General Services"
+#~ msgstr "Services généraux"
+#~ msgid "Local Hospital"
+#~ msgstr "Hôpitaux locaux"
+#~ msgid "Supported Deseases"
+#~ msgstr "Maladie suivies"
+#~ msgid "Insurance Benefit"
+#~ msgstr "Bénéfice d'assurance"
+#~ msgid "Leisure centers capabilities informations"
+#~ msgstr "Présentation des capacités des centres de loisirs"
+#~ msgid " Health Profesionals per patient"
+#~ msgstr "Professionnels de santé par patient"
+#~ msgid "Doctors per patient"
+#~ msgstr "Médecins par patient"
+#~ msgid "Respite centers capabilities informations"
+#~ msgstr "Présentation des capacités des centres de repos"
+#~ msgid "Users types definition"
+#~ msgstr "Définition des types d'utilisateurs"
+#~ msgid "Request object"
+#~ msgstr "Objet de la demande"
+#~ msgid "Contact classification"
+#~ msgstr "Classification des contacts"
+#~ msgid "Article types definition"
+#~ msgstr "Définition des types de contact"
+#~ msgid "Organisations types management"
+#~ msgstr "Gestion du type d'organisation"
+#~ msgid "Relationshipness to patient"
+#~ msgstr "Liens au patient"
+#~ msgid "Manage your own data"
+#~ msgstr "Gérer vos données"
+#~ msgid "Manage recreation centers"
+#~ msgstr "Gérer les centres de loisirs"
+#~ msgid "Manage Activities Services"
+#~ msgstr "Activités et services"
+#~ msgid "Manage Call Centers"
+#~ msgstr "Gestion des centres d'appels"
+#~ msgid "Manage call center"
+#~ msgstr "Gestion des centres d'appel"
+#~ msgid "Credits"
+#~ msgstr "Crédits"
+#~ msgid "Pays"
+#~ msgstr "Pays"
+#~ msgid "Message has been send "
+#~ msgstr "Le message a été envoyé"
+#~ msgid "Your message has been send correctly"
+#~ msgstr "Votre message a été envoyé correctement"
+

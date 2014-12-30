@@ -222,6 +222,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 				"tRole" => " la table des rôles des utilisateurs",
 				"tTools" => " la table des outillages",
 				"tUser" => " la table des utilisateurs",
+				"tClientetc" => " la table des Clients ETC",
 				"tZones" => " la table des zones d'activités");
 		$codop = array(
 				"create" => " de créer un nouvel enregistrement dans",
