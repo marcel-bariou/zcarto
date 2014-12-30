@@ -72,7 +72,7 @@
 		
 25/05/2014	Word extraction for activities qualification :
 		alphalist action, mngtb and alphalist.php, affichemots.tpl
-		New link in menugandi "Activities vocabulary"
+		New link in menugandi.php "Activities vocabulary"
 
 26/05/2014	Entreprise icon text (ent) display per zone :
 		zoneslocalisation.php, access to Entreprises for a Zone and adding display Icon after regular expression cleaning
@@ -84,7 +84,28 @@
 15/07/2014	buildpdfAction modified in mngtController
 		Adding capabilities to list also result list from request on activities
 
+12/08/2014	Following update of Joomla! to 3.3.3 needed to restore redirection to www.markethon-po.cat, because the Joomla! index.php was rewrited
+		Reload index.php from git
+		About an Ajax call we have to take care about the fact we must use the same domain name in the UrlGet and in an effective call to a script
+		so georeflayout.php must be fixed by the correct server name from the header => $_SERVER["HTTP_HOST"]
 		
+13/08/2014	Set-Up of Open Layer library on Gandi Server
+		New activity group (2)
+		
+14/08/2014	If GPS localisation not sure, possibility to modify by click on map the geolocation (courbedeniveau.tpl) .
+		Possibility to freeze a company (During alive checking) a new field needed in Database "existverif"
+		Funeral category "Six feets underground", Computing category
+		Activity description as textarea, 		
+		
+14-23/08/2014	Existence checking on companies form
+		Jobs capabilities on companies form
+		Progressive adding on companies categories but searching is more efficient on activities description
+		PDF companie list generation ordered by address name only (Number not included) 
+		
+25/08/2014	Diacritics element included in regular expression for search on field
+
+10/12/2014 Adding "Quoting generator" for ECO-TECH CERAM with main changes in mngtbcontroller, index.php, index.tpl, 
+
 		
 		
 		
